@@ -352,7 +352,7 @@
                 </ul>
                 <ul class="navbar-nav d-lg-block d-none">
                     <li class="nav-item">
-                        <a href="/Register/" style="background: #4682c8;" class="btn btn-sm  bg-gradient-faded-danger  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">¡Quiero Registrarme!</b></a>
+                        <a href="/Register/" style="background: #234664;" class="btn btn-sm  bg-gradient-faded-danger  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">¡Quiero Registrarme!</b></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav text-center mt-3 mb-2 d-block d-lg-none">
@@ -360,7 +360,7 @@
                         <a href="/Login/" style="background: #4682c8;" class="btn btn-sm  bg-gradient-faded-danger  btn-round mb-2 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">Iniciar Sesión</b></a>
                     </li>
                     <li class="nav-item">
-                        <a href="/Register/" style="background: #4682c8;" class="btn btn-sm  bg-gradient-faded-danger  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">¡Quiero Registrarme!</b></a>
+                        <a href="/Register/" style="background: #234664;" class="btn btn-sm  bg-gradient-faded-danger  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">¡Quiero Registrarme!</b></a>
                     </li>
                 </ul>
             </div>

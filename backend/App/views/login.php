@@ -351,11 +351,11 @@ echo $header;
                                 </div>
                             </li> -->
                             <li class="nav-item dropdown dropdown-hover mx-2">
-                                <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center " id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
+                                <!-- <a role="button" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center " id="dropdownMenuDocs" data-bs-toggle="dropdown" aria-expanded="false">
                                     Datos del evento
                                     <img src=" ../../../assets/img/down-arrow-dark.svg " alt="down-arrow" class="arrow ms-1 d-lg-block d-none">
                                     <img src="../../../assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-1 d-lg-none d-block">
-                                </a>
+                                </a> -->
                                 <div class="dropdown-menu dropdown-menu-animation dropdown-lg mt-0 mt-lg-3 p-3 border-radius-lg" aria-labelledby="dropdownMenuDocs">
                                     <div class="d-none d-lg-block">
                                         <ul class="list-group">
@@ -420,10 +420,10 @@ echo $header;
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a href="https://asofarma.com.mx/aviso-de-privacidad/" target="_blank" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center " aria-expanded="false" >
+                                <!-- <a href="https://asofarma.com.mx/aviso-de-privacidad/" target="_blank" class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center " aria-expanded="false" >
                                     Farmacovigilancia
 
-                                </a>
+                                </a> -->
                             </li>
                         </ul>
                         <ul class="navbar-nav d-lg-block d-none">
@@ -446,7 +446,7 @@ echo $header;
                         <div class="col-xl-4 col-lg-5 col-md-6 d-flex flex-column mx-auto">
                             <div class="card card-plain mt-7">
                                 <div class="card-header pb-0 text-start">
-                                    <h3 class="text-blue-cardio font-weight-bolder">ASO CARDIO 2022</h3>
+                                    <h3 class="text-blue-cardio font-weight-bolder">9° Foro CARDIOMETABÓLICO</h3>
                                     <p class="mb-0">Introduzca sus credenciales para iniciar sesión.</p>
                                 </div>
                                 <div class="card-body">
@@ -488,7 +488,7 @@ echo $header;
                                 <!-- <div class="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6" style="background-image:url('/assets/img/curved-images/curved9.jpg')"></div>-->
             
                                 <video autoplay muted loop>
-                                    <source class="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6" src="/assets/img/curved-images/Musa_Web.mp4" type="video/mp4">
+                                    <source class="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6" src="/assets/img/curved-images/video_foro.mp4" type="video/mp4">
                                 </video>
                             </div>
                         </div>
