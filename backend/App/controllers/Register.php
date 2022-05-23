@@ -24,7 +24,7 @@ class Register{
         <link rel="apple-touch-icon" sizes="76x76" href="../../../assets/img/aso_icon.png">
         <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/aso_icon.png">
         <title>
-            Registro MUSA
+            Registro ASO CARDIO
         </title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
         <!-- Nucleo Icons -->
@@ -206,7 +206,7 @@ html;
         <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
         <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
         <title>
-            Registro - MUSA
+            Registro - ASO CARDIO
         </title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
         <!-- Nucleo Icons -->
@@ -286,7 +286,7 @@ html;
                     });
 
                     return response;
-                },"Usted no está registrado en la Base de Datos MUSA 2022, verifique con su área y reintente.");
+                },"Usted no está registrado en la Base de Datos ASO CARDIO 2022, verifique con su área y reintente.");
 
                 $("#email_form").validate({
                    rules:{
@@ -354,7 +354,7 @@ html;
         <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
         <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
         <title>
-            Registro - MUSA
+            Registro - ASO CARDIO
         </title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
         <!-- Nucleo Icons -->
@@ -456,7 +456,7 @@ html;
                     });
 
                     return response;
-                },"Usted no está registrado en la Base de Datos MUSA 2022, verifique con su área y reintente.");
+                },"Usted no está registrado en la Base de Datos ASO CARDIO 2022, verifique con su área y reintente.");
 
                 $("#email_form").validate({
                    rules:{
@@ -500,7 +500,7 @@ html;
             <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
             <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
             <title>
-                Registro - MUSA
+                Registro - ASO CARDIO
             </title>
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
             <!-- Nucleo Icons -->
@@ -598,7 +598,7 @@ html;
                         });
 
                         return response;
-                    },"Usted no está registrado en la Base de Datos MUSA 2022, verifique con su área y reintente.");
+                    },"Usted no está registrado en la Base de Datos ASO CARDIO 2022, verifique con su área y reintente.");
 
                     $("#email_form").validate({
                     rules:{
@@ -725,7 +725,7 @@ html;
         <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
         <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
         <title>
-            Registro - MUSA
+            Registro - ASO CARDIO
         </title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
         <!-- Nucleo Icons -->
@@ -903,7 +903,7 @@ html;
         <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
         <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
         <title>
-            Registro - MUSA
+            Registro - ASO CARDIO
         </title>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
         <!-- Nucleo Icons -->

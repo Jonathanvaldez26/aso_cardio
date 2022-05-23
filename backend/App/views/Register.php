@@ -3,13 +3,13 @@ echo $header;
 ?>
     <body class="">
     <main class="main-content mt-0 ps">
-        <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg" style="background-image: url('../../../assets/img/curved-images/musa (4).jpeg');">
+        <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg" style="background-image: url('../../../assets/img/curved-images/ejemplo_cardio_registro_fondo.jpg');">
             <!-- <span class="mask bg-gradient-dark opacity-6"></span> -->
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-5 text-center mx-auto">
-                        <h1 class=" mb-2 mt-5">¡Bienvenido!</h1>
-                        <p class="text-lead text-dark">MUSA, Mujer Salud 2022. </p>
+                        <h1 class="text-blue-cardio mb-2 mt-5">¡Bienvenido!</h1>
+                        <p class="text-lead text-dark">ASO CARDIO, 9° FORO CARDIOMETABÓLICO 2022. </p>
                     </div>
                 </div>
             </div>
@@ -27,15 +27,15 @@ echo $header;
                             <div class="card-body pt-1">
                                 <form class="form-horizontal" id="email_form" action="/Register/Success" method="POST">
                                     <div class="mb-3 form-group">
-                                        <label style="font-weight:bold; font-size: 15px">Correo eléctronico institucional *</label>
+                                        <label class="text-blue-cardio" style="font-weight:bold; font-size: 15px">Correo eléctronico institucional *</label>
                                         <input type="email" id="email" name="email" class="form-control" placeholder="Ej. usuario@asofarma.com.mx" aria-label="Correo Eléctronico" required="required">
                                     </div>
                                     <div class="mb-3 form-group">
-                                        <label style="font-weight:bold; font-size: 15px">Escribe nuevamente tu correo  *</label>
+                                        <label class="text-blue-cardio" style="font-weight:bold; font-size: 15px">Escribe nuevamente tu correo  *</label>
                                         <input type="email" id="confirm_email" name="confirm_email" class="form-control" placeholder="Ej. usuario@asofarma.com.mx" aria-label="Confirmar tu Correo Eléctronico" required="required">
                                     </div>  
                                     <div class="form-group text-center">
-                                        <button style="background: #234664;" class="btn w-100 my-4 mb-2 ms-auto" type="submit" id="btn_registro_email"><b style="color: #FFFFFF">Registrarme</b></button>
+                                        <button style="background: #284b87;" class="btn w-100 my-4 mb-2 ms-auto" type="submit" id="btn_registro_email"><b style="color: #FFFFFF">Registrarme</b></button>
                                     </div>
                                     
                                 </form>

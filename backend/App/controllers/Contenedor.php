@@ -29,7 +29,7 @@ class Contenedor extends Controller{
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
            <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
             <title>
-               Home - MUSA
+               Home - ASO CARDIO
             </title>
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
             <!-- Nucleo Icons -->

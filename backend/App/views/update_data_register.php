@@ -11,7 +11,7 @@ echo $header;
                 <div class="row justify-content-center">
                     <div class="col-lg-5 text-center mx-auto">
                         <h1 class="text-dark mb-2 mt-5">¡Bienvenido!</h1>
-                        <p class="text-lead text-dark">MUSA, Mujer Salud 2022. </p>
+                        <p class="text-lead text-dark">9° FORO CARDIOMETABÓLICO Aso Cardio 2022. </p>
                     </div>
                 </div>
             </div>
@@ -178,10 +178,10 @@ echo $header;
                                                         <!-- <p>Aquí van los terminos y condiciones</p> -->
                                                         <span>
 
-                                                            Términos y Condiciones de Uso del sitio Foro LATAM MUSA
+                                                            Términos y Condiciones de Uso del sitio Foro LATAM ASO CARDIO
                                                             <br><br>
                                                             Los siguientes términos y condiciones (los "Términos y Condiciones") rigen el uso
-                                                            que usted le dé al sitio web Foro LATAM MUSA y a cualquiera de los contenidos
+                                                            que usted le dé al sitio web Foro LATAM ASO CARDIO y a cualquiera de los contenidos
                                                             disponibles en ella, incluyendo cualquier contenido derivado de la misma ("La
                                                             página"). Asofarma de México S.A. de C.V. ("Asofarma" o "nosotros") ha puesto a
                                                             su disposición el sitio web. Podemos cambiar los Términos y Condiciones de vez en

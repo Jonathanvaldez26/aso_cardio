@@ -4,7 +4,7 @@
     <nav class="navbar navbar-expand-lg  blur blur-rounded top-0  z-index-3 shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
         <div class="container-fluid">
             <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 ">
-                Mujer Salud 2022
+                Aso Cardio 2022
             </a>
             <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon mt-2">
@@ -347,20 +347,20 @@
                 </ul>
                 <ul class="navbar-nav d-lg-block d-none">
                     <li class="nav-item">
-                        <a href="/Login/" style="background: #02DABE;" class="btn btn-sm  bg-gradient-faded-danger  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">Iniciar Sesión</b></a>
+                        <a href="/Login/" style="background: #4682c8;" class="btn btn-sm  bg-gradient-faded-danger  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">Iniciar Sesión</b></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav d-lg-block d-none">
                     <li class="nav-item">
-                        <a href="/Register/" style="background: #02DABE;" class="btn btn-sm  bg-gradient-faded-danger  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">¡Quiero Registrarme!</b></a>
+                        <a href="/Register/" style="background: #4682c8;" class="btn btn-sm  bg-gradient-faded-danger  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">¡Quiero Registrarme!</b></a>
                     </li>
                 </ul>
                 <ul class="navbar-nav text-center mt-3 mb-2 d-block d-lg-none">
                     <li class="nav-item">
-                        <a href="/Login/" style="background: #02DABE;" class="btn btn-sm  bg-gradient-faded-danger  btn-round mb-2 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">Iniciar Sesión</b></a>
+                        <a href="/Login/" style="background: #4682c8;" class="btn btn-sm  bg-gradient-faded-danger  btn-round mb-2 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">Iniciar Sesión</b></a>
                     </li>
                     <li class="nav-item">
-                        <a href="/Register/" style="background: #02DABE;" class="btn btn-sm  bg-gradient-faded-danger  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">¡Quiero Registrarme!</b></a>
+                        <a href="/Register/" style="background: #4682c8;" class="btn btn-sm  bg-gradient-faded-danger  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">¡Quiero Registrarme!</b></a>
                     </li>
                 </ul>
             </div>

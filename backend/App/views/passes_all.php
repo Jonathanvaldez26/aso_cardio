@@ -246,7 +246,7 @@
     <div class="modal-dialog" role="document" style="max-width: 590px;">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="ver-pase-llegada">Pase de Abordar (Llegada) - MUSA 2022</h5>
+                <h5 class="modal-title" id="ver-pase-llegada">Pase de Abordar (Llegada) - ASO CARDIO 2022</h5>
                 <span type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
                     X
                 </span>
@@ -268,7 +268,7 @@
     <div class="modal-dialog" role="document" style="max-width: 590px;">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="ver-pase-salida">Pase de Abordar (Salida) - MUSA 2022</h5>
+                <h5 class="modal-title" id="ver-pase-salida">Pase de Abordar (Salida) - ASO CARDIO 2022</h5>
                 <span type="button" class="btn btn-danger" data-dismiss="modal" aria-label="Close">
                     X
                 </span>

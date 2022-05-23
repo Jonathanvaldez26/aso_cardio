@@ -133,7 +133,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/Musa/musa_home2.png" alt="">
+                                            <img src="../../assets/img/curved-images/aso/aso_cardio.jpeg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -195,9 +195,9 @@
                                 <div class="row">
                                     <div class="col-8 my-auto">
                                         <div class="numbers">
-                                            <p class="text-white text-sm mb-0 text-capitalize font-weight-bold opacity-9">MUSA, Mujer Salud 2022.</p>
+                                            <p class="text-white text-sm mb-0 text-capitalize font-weight-bold opacity-9">9° FORO CARDIOMETABÓLICO 2022.</p>
                                             <h5 class="text-white font-weight-bolder mb-0">
-                                                MUSA
+                                                ASO CARDIO
                                             </h5>
                                         </div>
                                     </div>
@@ -358,7 +358,7 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-12" style="background-color: red; border-radius: 5px;">
-                                    <h5 class="text-center" style="color: #fff;">Rumbo a MUSA</h5>
+                                    <h5 class="text-center" style="color: #fff;">Rumbo al FORO</h5>
                                 </div>
                                 <hr>
                             </div>

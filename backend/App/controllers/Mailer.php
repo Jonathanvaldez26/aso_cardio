@@ -34,7 +34,7 @@ class Mailer
             $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
             //Recipients
-            $mail->setFrom($msg['email'], 'MUSA 2022 Registro');
+            $mail->setFrom($msg['email'], 'ASO CARDIO 2022 Registro');
             $mail->addAddress($msg['email'], 'a');     //Add a recipient
 
 
@@ -89,7 +89,7 @@ class Mailer
                     Estamos ansiosos de volverlo a ver…
                 </p>
                 <p>
-                    Este mensaje se le envió porque usted está intentando registrar su cuenta de correo electrónico a <b>FORO MUSA Mujer Salud 2022</b>
+                    Este mensaje se le envió porque usted está intentando registrar su cuenta de correo electrónico a <b>9° FORO CARDIOMETABÓLICO Aso Cardio 2022</b>
                      Si no fue usted ignore este mensaje.
                 </p>
                 
@@ -147,7 +147,7 @@ class Mailer
             $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
             //Recipients
-            $mail->setFrom($msg['email'], 'MUSA 2022 Registro');
+            $mail->setFrom($msg['email'], 'ASO CARDIO 2022 Registro');
             $mail->addAddress($msg['email'], 'a');     //Add a recipient
 
             $html = '     
@@ -198,7 +198,7 @@ class Mailer
                     <img src="https://registro.foromusa.com/img/musa-01.png" alt="">
                         <p style="text-align: center !important;">
                             Estimado, ' . $msg['name'] . ' : 
-                            <strong>¡Su registro a FORO MUSA Mujer Salud 2022 fue exitoso!</strong>
+                            <strong>¡Su registro a 9° FORO CARDIOMETABÓLICO Aso Cardio 2022 fue exitoso!</strong>
                             
                         </p>
                     </div>

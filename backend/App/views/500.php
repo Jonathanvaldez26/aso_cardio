@@ -8,7 +8,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="../../../assets/img/apple-icon.png">
     <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
     <title>
-        Error 500 - MUSA
+        Error 500 - ASO CARDIO
     </title>
     <!--     Fonts and icons     -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />

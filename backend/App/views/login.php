@@ -428,12 +428,12 @@ echo $header;
                         </ul>
                         <ul class="navbar-nav d-lg-block d-none">
                             <li class="nav-item">
-                                <a href="/Register/" style="background: #234664;" class="btn btn-sm  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">¡Quiero Registrarme!</b></a>
+                                <a href="/Register/" style="background: #284b87;" class="btn btn-sm  btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">¡Quiero Registrarme!</b></a>
                             </li>
                         </ul>
                         <ul class="navbar-nav text-center mt-3 mb-2 d-block d-lg-none">
                             <li class="nav-item">
-                                <a href="/Register/" style="background: #234664;" class="btn btn-sm btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">¡Quiero Registrarme!</b></a>
+                                <a href="/Register/" style="background: #284b87;" class="btn btn-sm btn-round mb-0 me-1" onclick="smoothToPricing('pricing-soft-ui')"><b style="color: #ffffff">¡Quiero Registrarme!</b></a>
                             </li>
                         </ul>
                     </div>
@@ -446,16 +446,16 @@ echo $header;
                         <div class="col-xl-4 col-lg-5 col-md-6 d-flex flex-column mx-auto">
                             <div class="card card-plain mt-7">
                                 <div class="card-header pb-0 text-start">
-                                    <h3 class="font-weight-bolder" style="color:#617eb3;">ASO CARDIO 2022</h3>
+                                    <h3 class="text-blue-cardio font-weight-bolder">ASO CARDIO 2022</h3>
                                     <p class="mb-0">Introduzca sus credenciales para iniciar sesión.</p>
                                 </div>
                                 <div class="card-body">
                                     <form role="form" class="text-start" id="login" action="/Login/crearSession" method="POST" class="form-horizontal">
-                                        <label style="font-weight:bold; font-size: 15px">Correo electrónico</label>
+                                        <label class="text-blue-cardio" style="font-weight:bold; font-size: 15px">Correo electrónico</label>
                                         <div class="mb-3">
                                             <input type="email" name="usuario" id="usuario" class="form-control" placeholder="usuario@grupolahe.com" aria-label="Email">
                                         </div>
-                                        <label style="font-weight:bold; font-size: 15px">Contraseña</label>
+                                        <label class="text-blue-cardio" style="font-weight:bold; font-size: 15px">Contraseña</label>
                                         <div class="mb-3">
                                             <input type="password" name="password" id="password" class="form-control" placeholder="•••••••••" aria-label="Password">
                                         </div>
@@ -465,7 +465,7 @@ echo $header;
                                         </div>
 
                                         <div class="text-center">
-                                            <button style="background: #617eb3; color: #6238F6;" type="button" id="btnEntrar" class="btn w-100 mt-1 mb-0"><b style="color: #FFFFFF">ENTRAR</b></button>
+                                            <button style="background: #4682c8; color: #6238F6;" type="button" id="btnEntrar" class="btn w-100 mt-1 mb-0"><b style="color: #FFFFFF">ENTRAR</b></button>
                                         </div>
                                     </form>
                                     <div class="card-footer text-center pt-0 px-lg-2 px-1">
@@ -477,7 +477,7 @@ echo $header;
                                             Para crear su cuenta de acceso proporcione su cuenta de correo electrónico y de clic en el siguiente botón.
                                         </p>
                                         <div class="text-center">
-                                            <a href="/Register/" style="background: #234664;" type="button" class="btn w-100 mt-4 mb-0 font-weight-bold"><b style="color: white">¡QUIERO REGISTRARME!</b></a>
+                                            <a href="/Register/" style="background: #284b87;" type="button" class="btn w-100 mt-4 mb-0 font-weight-bold"><b style="color: white">¡QUIERO REGISTRARME!</b></a>
                                         </div>
                                     </div>
                                 </div>

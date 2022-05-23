@@ -1005,7 +1005,7 @@ echo $header;
                             response = true;
                         }else{
                             $('#btnEnviar').attr("disabled", true);
-                            $('#msg_email').html('Este email no fue registrado en Foro Mujer Salud Musa 2022');
+                            $('#msg_email').html('Este email no fue registrado en 9° FORO CARDIOMETABÓLICO Aso Cardio 2022');
                         }
                     }
                 });
