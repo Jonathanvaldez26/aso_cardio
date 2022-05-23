@@ -4,12 +4,12 @@ echo $header;
     
     <body class="">
     <main class="main-content mt-0 ps">
-        <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg" style="background-image: url('../../../assets/img/curved-images/musa (3).jpeg');">
-            <span class="mask bg-gradient-dark opacity-1"></span>
+        <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg" style="background-image: url('../../../assets/img/curved-images/ejemplo_cardio_registro_fondo.jpg');">
+            <!-- <span class="mask bg-gradient-dark opacity-1"></span> -->
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-5 text-center mx-auto">
-                        <h1 class="text-dark mb-2 mt-5">¡Bienvenido!</h1>
+                        <h1 class="text-blue-cardio mb-2 mt-5">¡Bienvenido!</h1>
                         <p class="text-lead text-dark">9° FORO CARDIOMETABÓLICO Aso Cardio 2022. </p>
                         <?php //var_dump($data); ?>
                     </div>

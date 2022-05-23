@@ -4,12 +4,12 @@ echo $header;
     <!-- <script src="/backend/public/assets/js/plugins/choices.min.js"></script> -->
     <body class="">
     <main class="main-content mt-0 ps">
-        <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3 border-radius-lg" style="background-image: url('../../../assets/img/curved-images/musa (2).jpeg');">
-            <span class="mask bg-gradient-dark opacity-2"></span>
+        <div class="page-header align-items-start min-vh-50 pt-5 pb-11 m-3" style="background-image: url('../../../assets/img/curved-images/ejemplo_cardio_registro_fondo.jpg');">
+            <!-- <span class="mask bg-gradient-dark opacity-2"></span> -->
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-5 text-center mx-auto">
-                        <h1 class="text-dark mb-2 mt-5">¡Bienvenido!</h1>
+                        <h1 class="text-blue-cardio mb-2 mt-5">¡Bienvenido!</h1>
                         <p class="text-lead text-dark">9° FORO CARDIOMETABÓLICO, Aso Cardio 2022. </p>
                     </div>
                 </div>
@@ -23,7 +23,7 @@ echo $header;
                             
                                 <div class="card-body px-lg-2 py-lg-2 text-center">
                                         <div class="info mb-2">
-                                            <div class="icon icon-shape icon-xl rounded-circle bg-gradient-danger shadow text-center py-3 mx-auto" style="background: #DBBEDF; color: #6238F6;">
+                                            <div class="icon icon-shape icon-xl rounded-circle bg-gradient-danger shadow text-center py-3 mx-auto" style="background: #234664; color: #6238F6;">
                                                 <svg class="mt-3" width="40px" height="35px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                                     <title>spaceship</title>
                                                     <g id="Basic-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -76,7 +76,7 @@ echo $header;
                                                 </div>
                                             </div>
                                             <div class="text-center">
-                                                <button style="background: #02DABE; color: #6238F6;" class="btn btn-faded-danger w-100 my-0 mb-2 ms-auto" type="submit" id="btn_registro_email"><b style="color: #FFFFFF">Verifique su código</b></button>
+                                                <button style="background: #4682c8; color: #6238F6;" class="btn btn-faded-danger w-100 my-0 mb-2 ms-auto" type="submit" id="btn_registro_email"><b style="color: #FFFFFF">Verifique su código</b></button>
                                                 <span class="text-muted text-sm" style="font-weight:bold; font-size: 15px">¿No ha recibido un código?<br><a href="javascript:0;" id="btn_reenviar_email">Reenviar un nuevo código</a>.</span>
                                             </div>
                                         </form>
