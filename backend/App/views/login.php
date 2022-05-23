@@ -10,7 +10,7 @@ echo $header;
                 <div class="container-fluid">
                     <img src="/img/aso_cardio.jpeg" class="mb-2" height="30" alt=""> &nbsp;&nbsp;&nbsp;
                     <a class="navbar-brand font-weight-bolder ms-lg-0 ms-3 ">
-                        Aso Cardio 2022
+                    <!-- 9° Foro CARDIOMETABÓLICO -->
                     </a>
                     <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon mt-2">
