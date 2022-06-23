@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="apple-touch-icon" sizes="76x76" href="../../../assets/img/apple-icon.png">
-    <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
     <title>
         Error 500 - ASO CARDIO
     </title>

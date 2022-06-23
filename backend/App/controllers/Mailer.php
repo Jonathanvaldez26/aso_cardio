@@ -101,7 +101,7 @@ class Mailer
                     Su código es: <span><b style="background: #e389;">'. $msg['code'] .'</b></span>
                 </p>
                 <p>
-                    El código es válido por 24 horas y sólo se puede usar una vez, atentamente su equipo de ASO CARDIO.
+                    El código es válido por 24 horas y sólo se puede usar una vez, atentamente su equipo de ADIUM.
                 </p> 
                 
             </div>

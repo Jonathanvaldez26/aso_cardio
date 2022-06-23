@@ -13,7 +13,7 @@ class Login{
         $extraHeader =<<<html
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
         <!--     ICONO PESTAÑA     -->
         <title>
            Login - Aso Cardio

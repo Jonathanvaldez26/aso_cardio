@@ -22,7 +22,7 @@ class Register{
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="apple-touch-icon" sizes="76x76" href="../../../assets/img/aso_icon.png">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/aso_icon.png">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
         <title>
             Registro ASO CARDIO
         </title>
@@ -204,7 +204,7 @@ html;
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
         <title>
             Registro - ASO CARDIO
         </title>
@@ -352,7 +352,7 @@ html;
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
         <title>
             Registro - ASO CARDIO
         </title>
@@ -498,8 +498,7 @@ html;
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
             <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
-            <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
-            <title>
+            <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">           <title>
                 Registro - ASO CARDIO
             </title>
             <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />
@@ -649,21 +648,21 @@ html;
 
         $lineaGeneral = LineaGeneralDao::getLineaPrincialAll();
 
-        foreach ($lineaGeneral as $key => $value) {
+//         foreach ($lineaGeneral as $key => $value) {
 
             
-            if ($value['id_linea_principal'] == 1 ) {
-                $optionsLineaPrincipal.=<<<html
-                    <option value="" disabled >Selecciona una opción</option>
-                    <option value="{$value['id_linea_principal']}"selected>{$value['nombre']}</option>
-html;
-            } else {
-                $optionsLineaPrincipal.=<<<html
-                <option value="" disabled selected>Selecciona una opción</option>
-                <option value="{$value['id_linea_principal']}" >{$value['nombre']}</option>
-html;
-            }
-        }   
+//             if ($value['id_linea_principal'] == 1 ) {
+//                 $optionsLineaPrincipal.=<<<html
+//                     <option value="" disabled >Selecciona una opción</option>
+//                     <option value="{$value['id_linea_principal']}"selected>{$value['nombre']}</option>
+// html;
+//             } else {
+//                 $optionsLineaPrincipal.=<<<html
+//                 <option value="" disabled selected>Selecciona una opción</option>
+//                 <option value="{$value['id_linea_principal']}" >{$value['nombre']}</option>
+// html;
+//             }
+//         }  
         
         $userData = RegisterDao::getUserRegister($email)[0];
 
@@ -689,6 +688,13 @@ html;
 html;
 
         }
+
+        foreach($lineaGeneral as $key => $value){
+            $selectedEsp = ($value['id_linea_principal'] == $userData['especialidad']) ? 'selected' : '';
+            $optionsLineaPrincipal .= <<<html
+            <option value="{$value['id_linea_principal']}" $selectedEsp>{$value['nombre']}</option>
+        html;
+        } 
 
 
         if($userData['code'] === $code_received){
@@ -723,7 +729,7 @@ html;
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
         <title>
             Registro - ASO CARDIO
         </title>
@@ -901,7 +907,7 @@ html;
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon.png">
-        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/Musa0-01.png">
+        <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
         <title>
             Registro - ASO CARDIO
         </title>

@@ -196,25 +196,31 @@ html;
 html;
         }
 
-        foreach ($lineaGeneral as $key => $value) {
+//         foreach ($lineaGeneral as $key => $value) {
 
-            if($userData['especialidad'] == $value['id_linea_principal']){
-                $idLineaPrincipal =  $value['id_linea_principal'];
-                $nombreLineaPrincipal = $value['nombre'];
-            }
-            if ($value['id_linea_principal'] == 1 ) {
-                $optionsLineaPrincipal.=<<<html
-                    <option value="" disabled >Selecciona una opción</option>
-                    <option value="{$value['id_linea_principal']}"selected>{$value['nombre']}</option>
+//             if($userData['especialidad'] == $value['id_linea_principal']){
+//                 $idLineaPrincipal =  $value['id_linea_principal'];
+//                 $nombreLineaPrincipal = $value['nombre'];
+//             }
+//             if ($value['id_linea_principal'] == 1 ) {
+//                 $optionsLineaPrincipal.=<<<html
+//                     <option value="" disabled >Selecciona una opción</option>
+//                     <option value="{$value['id_linea_principal']}"selected>{$value['nombre']}</option>
+// html;
+//             } else {
+//                 $optionsLineaPrincipal.=<<<html
+//                 <option value="" disabled selected>Selecciona una opción</option>
+//                 <option value="{$value['id_linea_principal']}" >{$value['nombre']}</option>
+// html;
+//             }
+//         }
+
+        foreach($lineaGeneral as $key => $value){
+            $selectedEsp = ($value['id_linea_principal'] == $userData['especialidad']) ? 'selected' : '';
+            $optionsLineaPrincipal .= <<<html
+            <option value="{$value['id_linea_principal']}" $selectedEsp>{$value['nombre']}</option>
 html;
-            } else {
-                $optionsLineaPrincipal.=<<<html
-                <option value="" disabled selected>Selecciona una opción</option>
-                <option value="{$value['id_linea_principal']}" >{$value['nombre']}</option>
-html;
-            }
         }
-
 
 
         $userData = RegisterDao::getUserRegister($userData['email'])[0];

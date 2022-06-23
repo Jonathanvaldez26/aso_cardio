@@ -68,22 +68,22 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#cam1" role="tab" aria-controls="cam1" aria-selected="false">
-                                        28 Abril
+                                        14 Julio
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#cam2" role="tab" aria-controls="cam2" aria-selected="false">
-                                        29 Abril
+                                        15 Julio
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#cam3" role="tab" aria-controls="cam3" aria-selected="false">
-                                        30 Abril
+                                        16 Julio
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#cam4" role="tab" aria-controls="cam3" aria-selected="false">
-                                        01 Mayo
+                                        17 Julio
                                     </a>
                                 </li>
                                 <div class="moving-tab position-absolute nav-link" style="padding: 0px; transition: all 0.5s ease 0s; transform: translate3d(0px, 0px, 0px); "><a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#cam1" role="tab" aria-controls="cam1" aria-selected="true">-</a>
@@ -104,22 +104,22 @@
                                 </li>
                                 <li id="movil-li" class="nav-item">
                                     <a id="nav-day" class="nav-link mb-0 px-3 py-1" data-bs-toggle="tab" href="#cam1" role="tab" aria-controls="cam1" aria-selected="false">
-                                        28 Abril
+                                        14 Julio
                                     </a>
                                 </li>
                                 <li id="movil-li" class="nav-item">
                                     <a id="nav-day" class="nav-link mb-0 px-3 py-1" data-bs-toggle="tab" href="#cam2" role="tab" aria-controls="cam2" aria-selected="false">
-                                        29 Abril
+                                        15 Julio
                                     </a>
                                 </li>
                                 <li id="movil-li" class="nav-item">
                                     <a id="nav-day" class="nav-link mb-0 px-3 py-1" data-bs-toggle="tab" href="#cam3" role="tab" aria-controls="cam3" aria-selected="false">
-                                        30 Abril
+                                        16 Julio
                                     </a>
                                 </li>
                                 <li id="movil-li" class="nav-item">
                                     <a id="nav-day" class="nav-link mb-0 px-3 py-1" data-bs-toggle="tab" href="#cam4" role="tab" aria-controls="cam3" aria-selected="false">
-                                        01 Mayo
+                                        17 Julio
                                     </a>
                                 </li>
                             </ul>
@@ -138,7 +138,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam0" role="tabpanel" aria-labelledby="cam0" >
+                            <!-- <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam0" role="tabpanel" aria-labelledby="cam0" >
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
@@ -182,7 +182,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
+
                         </div>
                     </div>
                 </div>
@@ -286,7 +287,24 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-6 mt-4">
+                    
+                    <div class="col-md-6 mt-4" id="cont-itinerario" <?=$permisos_mexico;?>>
+                        <a type="button" data-toggle="modal" data-target="#ver-itinerario" class="btn-itinerario">
+                            <div class="card card-link">
+                                <div class="card-body text-center">
+                                    <div class="col-12 text-center">
+                                        <img class="w-30 btn-img-home" src="../../assets/img/icons/iCONOS-07.png">
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <h6 class="mb-0 font-weight-bolder">Itinerario</h6>
+                                    <p class="opacity-8 mb-0 text-sm">Disponible <i class="fa fa-check-circle me-sm-0" style="color: #01a31c"></i></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- <div class="col-md-6 mt-4">
                         <a href="/News/">
                             <div class="card card-link">
                                 <div class="card-body text-center">
@@ -314,7 +332,7 @@
                                 </div>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>
