@@ -27,8 +27,8 @@ class Mailer
             $mail->isSMTP();                                            //Send using SMTP
             $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-            $mail->Username   = 'mujersalud2022@gmail.com';                     //SMTP username
-            $mail->Password   = 'grupolahe664';                               //SMTP password
+            $mail->Username   = 'foroasocardio@gmail.com';                     //SMTP username
+            $mail->Password   = 'lovoxfeokubmsmal';                              //SMTP password
             $mail->SMTPSecure = 'ssl';
             $mail->SMTPAutoTLS = false;            //Enable implicit TLS encryption
             $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
@@ -83,7 +83,7 @@ class Mailer
         <body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
                     
             <div class="container">
-                <img src="https://registro.foromusa.com/img/musa-01.png" alt="">
+                <img src="https://forolatamcardiometabolico.com/img/aso_cardio.jpeg" alt="">
                 <br>
                 <p>
                     Estamos ansiosos de volverlo a ver…
@@ -101,7 +101,7 @@ class Mailer
                     Su código es: <span><b style="background: #e389;">'. $msg['code'] .'</b></span>
                 </p>
                 <p>
-                    El código es válido por 24 horas y sólo se puede usar una vez, atentamente su equipo ADIUM.
+                    El código es válido por 24 horas y sólo se puede usar una vez, atentamente su equipo de ASO CARDIO.
                 </p> 
                 
             </div>
@@ -140,8 +140,8 @@ class Mailer
             $mail->isSMTP();                                            //Send using SMTP
             $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
             $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-            $mail->Username   = 'mujersalud2022@gmail.com';                     //SMTP username
-            $mail->Password   = 'grupolahe664';                               //SMTP password
+            $mail->Username   = 'foroasocardio@gmail.com';                     //SMTP username
+            $mail->Password   = 'lovoxfeokubmsmal';                               //SMTP password
             $mail->SMTPSecure = 'ssl';
             $mail->SMTPAutoTLS = false;            //Enable implicit TLS encryption
             $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
@@ -195,7 +195,7 @@ class Mailer
                 <body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
                     
                     <div class="container">
-                    <img src="https://registro.foromusa.com/img/musa-01.png" alt="">
+                    <img src="https://forolatamcardiometabolico.com/img/aso_cardio.jpeg" alt="">
                         <p style="text-align: center !important;">
                             Estimado, ' . $msg['name'] . ' : 
                             <strong>¡Su registro a 9° FORO CARDIOMETABÓLICO Aso Cardio 2022 fue exitoso!</strong>
