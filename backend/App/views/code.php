@@ -44,7 +44,7 @@ echo $header;
                                         
                                         <div class="text-center text-muted mb-2">
                                             <?php echo $alerta; ?>
-                                            <h5>Ingrece su código de verificación.</h5>
+                                            <h5>Ingrese su código de verificación.</h5>
                                             
                                             <span class="text-muted text-sm">Recibió un código de verificación de su identidad en su cuenta de correo electrónico, introdúzcalo a continuación. </span>
 
