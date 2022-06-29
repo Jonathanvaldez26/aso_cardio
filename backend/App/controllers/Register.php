@@ -183,7 +183,7 @@ html;
                 'email' => $register->_email,
                 'code' =>  $register->_code
             ];
-
+            //EVITAR QUE SE MANDE CORREO DE CODIGO SI SE ENTRA A SUCCESS
             // $mailer = new Mailer();
             // $mailer->mailer($msg);
 
@@ -628,6 +628,7 @@ html;
       
 html;
 
+        //PASAR LA VARIABLE DE EMAIL
         $register = new \stdClass();
 
         $email = $_POST['confirm_email'];
@@ -703,6 +704,7 @@ html;
         } 
 
 
+        //QUITAR LA VERIFICACIÓN DEL CODIGO DEL EMAIL
         // if($userData['code'] === $code_received){
             //echo "Se verifico codigo correctamente";
             View::set('optionsLineaPrincipal',$optionsLineaPrincipal);

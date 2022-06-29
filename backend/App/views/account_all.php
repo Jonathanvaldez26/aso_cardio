@@ -82,7 +82,7 @@
                         <div class="col-sm-auto col-8 my-auto">
                             <div class="h-100">
                                 <h5 class="mb-1 font-weight-bolder">
-                                    <?= $userData['nombre'] . " " . $userData['segundo_nombre'] . " " . $userData['apellido_paterno'] . " " . $userData['apellido_materno'] ?>
+                                    <?= $nombre_completo = mb_strtoupper(html_entity_decode($userData['nombre']) . " " . html_entity_decode($userData['segundo_nombre']) . " " . html_entity_decode($userData['apellido_paterno']) . " " . html_entity_decode($userData['apellido_materno']))?>
                                 </h5>
                                 <p class="mb-0 font-weight-bold text-sm">
                                     Equipo Adium

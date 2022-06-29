@@ -109,15 +109,16 @@
                     <div class="card-body">
                         <!-- Estamos generando tu ticket -->
                         <!--<img src="../../assets/assets/img/boleto_musa.jpeg" alt="bruce" class="w-100 border-radius-lg shadow-sm"> -->
-                        <img src="https://admin.foromusa.com/qrs/<?php echo $qr; ?>.png" style="display: none;" alt="" hidden>
-                        <input id="codigo-qr" type="text" value="https://admin.foromusa.com/qrs/<?php echo $qr; ?>.png" style="display: none;" hidden readonly>
-                        <input id="nombre-canvas" type="text" value="<?php echo $nombre; ?>" style="display: none;" hidden readonly>
-                        <input id="apellidos-canvas" type="text" value="<?php echo $apellidos; ?>" style="display: none;" hidden readonly>
+                        <img src="https://admin.forolatamcardiometabolico.com/qrs/<?php echo $qr; ?>.png" style="display: none;" alt="" hidden>
+                        <input id="codigo-qr" type="text" value="https://admin.forolatamcardiometabolico.com/qrs/<?php echo $qr; ?>.png" style="display: none;" hidden readonly>
+                        <input id="nombre-canvas" type="text" value="<?php echo mb_strtoupper(html_entity_decode($nombre)) ?>" style="display: none;" hidden readonly>
+                        <input id="apellidos-canvas" type="text" value="<?php echo mb_strtoupper(html_entity_decode($apellidos)) ?>" style="display: none;" hidden readonly>
                         <!-- <br><br> -->
                         <div class="col-md-12 col-12 text-center">
                             <div id="main_ticket" hidden>
                                 <canvas id="canvas_ticket" width="1220" height="457" name="ticket-<?php echo $clave_user; ?>" alt="ticket-<?php echo $clave_user; ?>" style="background: white; width: -webkit-fill-available;">
-                                    <img src="/assets/img/boleto_musa.jpeg" alt="">
+                                    <!-- AQUI VA IMAGEN DEL TICKET VIRTUAL -->
+                                    <img src="/assets/img/boleto_cardio.jpeg" alt="">
                                 </canvas> <!--  background-image: url('/img/ticket.jpg'); -->
                             </div>
                         </div>
@@ -149,7 +150,7 @@
             context = canvas.getContext('2d');
 
             var imgTicketFondo = new Image();
-            imgTicketFondo.src = '/assets/img/boleto_musa.jpeg';
+            imgTicketFondo.src = '/assets/img/boleto_cardio.jpeg';
 
             imgTicketFondo.onload = function() {
                 context.drawImage(imgTicketFondo, 0, 0);
@@ -163,7 +164,7 @@
             public.loadPicture = function() {
 
                 var imgTicketFondo = new Image();
-                imgTicketFondo.src = '/assets/img/boleto_musa.jpeg';
+                imgTicketFondo.src = '/assets/img/boleto_cardio.jpeg';
 
                 imgTicketFondo.onload = function() {
                     context.drawImage(imgTicketFondo, 0, 0);
