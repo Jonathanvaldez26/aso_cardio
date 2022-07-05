@@ -76,6 +76,11 @@
                                         14 Julio
                                     </a>
                                 </li>
+                                <li id="movil-li" class="nav-item">
+                                    <a id="nav-day" class="nav-link mb-0 px-3 py-1" data-bs-toggle="tab" href="#cam0" role="tab" aria-controls="cam2" aria-selected="false">
+                                        15 Julio
+                                    </a>
+                                </li>
                                 <li class="nav-item">
                                     <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#cam3" role="tab" aria-controls="cam3" aria-selected="false">
                                         16 Julio
@@ -113,6 +118,11 @@
                                     </a>
                                 </li>
                                 <li id="movil-li" class="nav-item">
+                                    <a id="nav-day" class="nav-link mb-0 px-3 py-1" data-bs-toggle="tab" href="#cam0" role="tab" aria-controls="cam2" aria-selected="false">
+                                        15 Julio
+                                    </a>
+                                </li>
+                                <li id="movil-li" class="nav-item">
                                     <a id="nav-day" class="nav-link mb-0 px-3 py-1" data-bs-toggle="tab" href="#cam3" role="tab" aria-controls="cam3" aria-selected="false">
                                         16 Julio
                                     </a>
@@ -139,15 +149,15 @@
                                 </div>
                             </div>
 
-                            <!-- <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam0" role="tabpanel" aria-labelledby="cam0" >
+                            <div class="tab-pane fade position-relative border-radius-lg" id="cam0" role="tabpanel" aria-labelledby="cam0" >
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/aso/aso_cardio_2.jpg" alt="">
+                                            <img src="../../assets/img/curved-images/aso/aso_cardio_3.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
                             <div class="tab-pane fade position-relative border-radius-lg" id="cam1" role="tabpanel" aria-labelledby="cam1" >
                                 <div class="row">
                                     <div class="col-12">
@@ -175,7 +185,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade position-relative border-radius-lg" id="cam4" role="tabpanel" aria-labelledby="cam3" >
+                            <div class="tab-pane fade position-relative border-radius-lg" id="cam4" role="tabpanel" aria-labelledby="cam4" >
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
@@ -241,7 +251,7 @@
                     </div>
                 <!-- -</div>
                 -<div class="row mt-4"> -->
-                    <div class="col-md-6 mt-4">
+                    <!-- <div class="col-md-6 mt-4">
                         <a href="/Covid/">
                             <div class="card card-link">
                                 <div class="card-body text-center">
@@ -255,7 +265,7 @@
                                 </div>
                             </div>
                         </a>
-                    </div>
+                    </div> -->
                     <div class="col-md-6 mt-4" <?= $permisos_mexico;?>>
                         <a href="/Passes/">
                             <div class="card card-link">
