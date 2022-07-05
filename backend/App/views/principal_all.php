@@ -68,12 +68,12 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#cam1" role="tab" aria-controls="cam1" aria-selected="false">
-                                        14 Julio
+                                        <span class="fas fa-user-md"></span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#cam2" role="tab" aria-controls="cam2" aria-selected="false">
-                                        15 Julio
+                                        14 Julio
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -83,7 +83,7 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link mb-0 px-0 py-1" data-bs-toggle="tab" href="#cam4" role="tab" aria-controls="cam3" aria-selected="false">
-                                        17 Julio
+                                        <span class="fas fa-heart"></span>
                                     </a>
                                 </li>
                                 <div class="moving-tab position-absolute nav-link" style="padding: 0px; transition: all 0.5s ease 0s; transform: translate3d(0px, 0px, 0px); "><a class="nav-link mb-0 px-0 py-1 active" data-bs-toggle="tab" href="#cam1" role="tab" aria-controls="cam1" aria-selected="true">-</a>
@@ -104,12 +104,12 @@
                                 </li>
                                 <li id="movil-li" class="nav-item">
                                     <a id="nav-day" class="nav-link mb-0 px-3 py-1" data-bs-toggle="tab" href="#cam1" role="tab" aria-controls="cam1" aria-selected="false">
-                                        14 Julio
+                                        <span class="fas fa-user_md"></span>
                                     </a>
                                 </li>
                                 <li id="movil-li" class="nav-item">
                                     <a id="nav-day" class="nav-link mb-0 px-3 py-1" data-bs-toggle="tab" href="#cam2" role="tab" aria-controls="cam2" aria-selected="false">
-                                        15 Julio
+                                        14 Julio
                                     </a>
                                 </li>
                                 <li id="movil-li" class="nav-item">
@@ -119,7 +119,7 @@
                                 </li>
                                 <li id="movil-li" class="nav-item">
                                     <a id="nav-day" class="nav-link mb-0 px-3 py-1" data-bs-toggle="tab" href="#cam4" role="tab" aria-controls="cam3" aria-selected="false">
-                                        17 Julio
+                                        <span class="fas fa-hearth"></span>
                                     </a>
                                 </li>
                             </ul>
@@ -129,60 +129,61 @@
                     </div>
                     <div class="card-body p-3 mt-2">
                         <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show position-relative active height-programa border-radius-lg" id="cam" role="tabpanel" aria-labelledby="cam" >
+                            <div class="tab-pane fade show position-relative active border-radius-lg" id="cam" role="tabpanel" aria-labelledby="cam" >
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/aso/aso_cardio.jpeg" alt="">
+                                            <img src="../../assets/img/curved-images/aso/aso_cardio.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                             <!-- <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam0" role="tabpanel" aria-labelledby="cam0" >
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/Musa/MUSA.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam1" role="tabpanel" aria-labelledby="cam1" >
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="card">
-                                            <img src="../../assets/img/curved-images/Musa/28.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam2" role="tabpanel" aria-labelledby="cam2" >
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="card">
-                                            <img src="../../assets/img/curved-images/Musa/29.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam3" role="tabpanel" aria-labelledby="cam3" >
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="card">
-                                            <img src="../../assets/img/curved-images/Musa/30.png" alt="">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade position-relative height-programa border-radius-lg" id="cam4" role="tabpanel" aria-labelledby="cam3" >
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="card">
-                                            <img src="../../assets/img/curved-images/Musa/01.png" alt="">
+                                            <img src="../../assets/img/curved-images/aso/aso_cardio_2.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div> -->
+                            <div class="tab-pane fade position-relative border-radius-lg" id="cam1" role="tabpanel" aria-labelledby="cam1" >
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <img src="../../assets/img/curved-images/aso/aso_cardio_2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade position-relative border-radius-lg" id="cam2" role="tabpanel" aria-labelledby="cam2" >
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <img src="../../assets/img/curved-images/aso/aso_cardio_3.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade position-relative border-radius-lg" id="cam3" role="tabpanel" aria-labelledby="cam3" >
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <img src="../../assets/img/curved-images/aso/aso_cardio_4.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade position-relative border-radius-lg" id="cam4" role="tabpanel" aria-labelledby="cam3" >
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <img src="../../assets/img/curved-images/aso/aso_cardio_5.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
                         </div>
                     </div>
