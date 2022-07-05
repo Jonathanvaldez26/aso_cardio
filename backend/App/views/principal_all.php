@@ -153,7 +153,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/aso/aso_cardio_3.jpg" alt="">
+                                            <img src="../../assets/img/curved-images/aso/aso_cardio_3.jpeg" alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -171,7 +171,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="card">
-                                            <img src="../../assets/img/curved-images/aso/aso_cardio_3.jpg" alt="">
+                                            <img src="../../assets/img/curved-images/aso/aso_cardio_6.jpeg" alt="">
                                         </div>
                                     </div>
                                 </div>
