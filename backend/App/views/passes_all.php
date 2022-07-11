@@ -204,10 +204,10 @@
                                                         <td>11</td>
                                                         <td>12</td>
                                                         <td>13</td>
-                                                        <td>14</td>
+                                                        <td><span class="badge badge-info" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Rumbo a la Convención">14</span></td>
                                                         <td>15</td>
                                                         <td>16</td>
-                                                        <td>17</td>
+                                                        <td><span class="badge badge-success" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Regreso a casa">17</td>
                                                     </tr>
                                                     <tr>
                                                         <td>18</td>
@@ -222,10 +222,10 @@
                                                         <td>25</td>
                                                         <td>26</td>
                                                         <td>27</td>
-                                                        <td><span class="badge badge-info" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Rumbo a la Convención">28</span></td>
+                                                        <td>28</td>
                                                         <td>29</td>
                                                         <td>30</td>
-                                                        <td><span class="badge badge-success" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Regreso a casa">1</span></td>
+                                                        <td>31</span></td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -256,7 +256,7 @@
             </div> -->
             <div class="modal-body">
                 <!-- <span><?php echo $pase_llegada['url'];?></span> -->
-                <iframe src="https://admin.foromusa.com/comprobante_vuelo_uno/<?php echo $pase_llegada['url'];?>"
+                <iframe src="https://admin.forolatamcardiometabolico.com/comprobante_vuelo_uno/<?php echo $pase_llegada['url'];?>"
                         style="width:100%; height:780px;" frameborder="0" >
                 </iframe>
             </div>
@@ -278,7 +278,7 @@
             </div> -->
             <div class="modal-body">
                 <span><?php echo $pase_salida['url'];?></span>
-                <iframe src="https://admin.foromusa.com/comprobante_vuelo_dos/<?php echo $pase_salida['url'];?>"
+                <iframe src="https://admin.forolatamcardiometabolico.com/comprobante_vuelo_dos/<?php echo $pase_salida['url'];?>"
                         style="width:100%; height:780px;" frameborder="0" >
                 </iframe>
             </div>
