@@ -150,6 +150,7 @@
             context = canvas.getContext('2d');
 
             var imgTicketFondo = new Image();
+            //AQUI VA TICKET VIRTUAL
             imgTicketFondo.src = '/assets/img/boleto_cardio.jpeg';
 
             imgTicketFondo.onload = function() {
