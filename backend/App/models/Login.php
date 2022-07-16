@@ -23,7 +23,7 @@ sql;
     public static function getUser($usuario){
         $mysqli = Database::getInstance(true);
         $query =<<<sql
-        SELECT ua.*, ra.* FROM utilerias_asistentes ua INNER JOIN registros_acceso ra WHERE ua.id_registro_acceso = ra.id_registro_acceso and ua.usuario = '$usuario'
+        SELECT ra.* FROM registros_acceso ra WHERE ra.email = '$usuario';
 sql;
 
         return $mysqli->queryAll($query);
