@@ -23,7 +23,7 @@ echo $header;
 
                                                             <div class="row text-center mt-4">
                                                                 <div class="col-10 mx-auto">
-                                                                    <h5 class="font-weight-normal"><strong>FORO DE CARDIOMETABOLISMO – LATAM 2022
+                                                                    <h5 class="font-weight-normal"><strong>9no. FORO CARDIOMETABÓLICO – LATAM 2022
                                                                             CANCÚN. MÉXICO
                                                                         </strong></h5>
                                                                     <p>Coloque el puntaje a cada uno de los siguientes ítems, donde (Cara feliz) es “totalmente satisfecho” y (cara triste) es “nada satisfecho”.</p>
@@ -44,7 +44,7 @@ echo $header;
                                                                         <input type="email" id="email" name="email" class="form-control" placeholder="Escriba su email" required>
                                                                         <span id="msg_email"></span>
                                                                     </div>
-                                                                    <span>* Verifique que sus datos esten escritos correctamenrte.</span>
+                                                                    <span>* Verifique que sus datos esten escritos correctamente.</span>
 
                                                                 </div>
 
@@ -607,30 +607,37 @@ echo $header;
                                                                                 <p>7. Seleccione cuáles fueron los temas de mayor interés para su práctica diaria (seleccionar hasta 3):</p>
                                                                                 <div class="row mt-4 d-flex justify-content-evenly text-center">
                                                                                     <div class="col-sm-1 ">
-                                                                                        <input type="checkbox" class="btn-check btn-face-" id="btncheck144" name="group37_1" value="3">
+                                                                                        <input type="checkbox" class="btn-check btn-face-" id="btncheck144" name="group37_1" value="4">
                                                                                         <label class="btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck144">
-                                                                                            Hormonas, salud sexual y emotiva: el arte de prescribir
+                                                                                            HTA: ¿CUÁL ES LA RUTA A SEGUIR?
                                                                                         </label>
                                                                                         <h6></h6>
                                                                                     </div>
                                                                                     <div class="col-sm-1 ">
-                                                                                        <input type="checkbox" class="btn-check btn-face-" id="btncheck145" name="group37_2" value="2">
+                                                                                        <input type="checkbox" class="btn-check btn-face-" id="btncheck145" name="group37_2" value="3">
                                                                                         <label class="btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck145">
-                                                                                            Infecciones genitourinarias
+                                                                                            DISLIPIDEMIAS. REESCRIBIENDO EL PRESENTE – MODELANDO EL FUTURO
                                                                                         </label>
                                                                                         <h6></h6>
                                                                                     </div>
                                                                                     <div class="col-sm-1 ">
-                                                                                        <input type="checkbox" class="btn-check btn-face-" id="btncheck146" name="group37_3" value="1">
+                                                                                        <input type="checkbox" class="btn-check btn-face-" id="btncheck146" name="group37_3" value="2">
                                                                                         <label class="btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck146">
-                                                                                            Climaterio
+                                                                                            OBESIDAD: MÁS ALLÁ DE LOS CAMBIOS EN EL ESTILO DE VIDA
                                                                                         </label>
                                                                                         <h6></h6>
                                                                                     </div>
                                                                                     <div class="col-sm-1 ">
-                                                                                        <input type="checkbox" class="btn-check btn-face-" id="btncheck147" name="group37_4" value="0">
+                                                                                        <input type="checkbox" class="btn-check btn-face-" id="btncheck147" name="group37_4" value="1">
                                                                                         <label class="btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck147">
-                                                                                            Una hormona vital
+                                                                                            ACODs. DESAFÍOS EN EL MANEJO DEL TRATAMIENTO ANTITROMBÓTICO: PORQUÉ, CUÁNDO Y DÓNDE
+                                                                                        </label>
+                                                                                        <h6></h6>
+                                                                                    </div>
+                                                                                    <div class="col-sm-1 ">
+                                                                                        <input type="checkbox" class="btn-check btn-face-" id="btncheck152" name="group37_5" value="0">
+                                                                                        <label class="btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck152">
+                                                                                            DIABETES MELLITUS TIPO 2: ¿SE PUEDE ROMPER LA INERCIA TERAPÉUTICA? 
                                                                                         </label>
                                                                                         <h6></h6>
                                                                                     </div>
@@ -669,7 +676,7 @@ echo $header;
                                                                             </li>
 
                                                                             <li>
-                                                                                <p>9. Desde el punto de vista científico, volvería a participar de un foro de ginecología – latam?</p>
+                                                                                <p>9. Desde el punto de vista científico, volvería a participar de un foro de cardiometabolismo – latam?</p>
                                                                                 <div class="row mt-4 d-flex justify-content-center text-center">
                                                                                     <div class="col-sm-1 ">
                                                                                         <input type="radio" class="btn-check btn-face-" id="btncheck150" name="group39" required value="si">

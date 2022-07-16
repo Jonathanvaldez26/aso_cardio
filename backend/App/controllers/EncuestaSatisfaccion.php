@@ -132,6 +132,7 @@ html;
         $preg_7_2 = $_POST['group37_2'];
         $preg_7_3 = $_POST['group37_3'];
         $preg_7_4 = $_POST['group37_4'];
+        $preg_7_5 = $_POST['group37_5'];
         
 
         if(!isset($preg_7_1)){
@@ -149,6 +150,11 @@ html;
         if(!isset($preg_7_4)){
             $preg_7_4 = 0;
         }
+
+        if(!isset($preg_7_5)){
+            $preg_7_5 = 0;
+        }
+
 
 
         $preg_8 = $_POST['group38'];
@@ -184,6 +190,7 @@ html;
         $data->_preg_7_2 = $preg_7_2;
         $data->_preg_7_3 = $preg_7_3;
         $data->_preg_7_4 = $preg_7_4;
+        $data->_preg_7_5 = $preg_7_5;
         $data->_preg_8 = $preg_8;
         $data->_preg_8_1 = $preg_8_1;
         $data->_preg_9 = $preg_9;
