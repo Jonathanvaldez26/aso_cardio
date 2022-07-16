@@ -18,7 +18,7 @@ class EncuestaSatisfaccion{
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="icon" type="image/vnd.microsoft.icon" href="../../../assets/img/adium.png">
         <title>
-           Login - ASO CARDIO
+           Encuesta - ASO CARDIO
         </title>
         <!--     Fonts and icons     -->
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" />

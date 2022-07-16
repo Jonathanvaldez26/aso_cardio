@@ -1042,7 +1042,7 @@ echo $header;
                             Swal.fire(respuesta.msg, "", respuesta.status).
                                 then((value) => {       
                                                       
-                                window.location.replace("https://foromusa.com/");
+                                window.location.replace("https://forolatamcardiometabolico.com/Login/");
                             });                
                              
                         
@@ -1050,14 +1050,14 @@ echo $header;
                             Swal.fire(respuesta.msg, respuesta.msg2, 'success').
                                 then((value) => {       
                                                       
-                                window.location.replace("https://foromusa.com/");
+                                window.location.replace("https://forolatamcardiometabolico.com/Login/");
                             });
                         }
                         else{
 
                             Swal.fire(respuesta.msg, "", respuesta.status).
                                 then((value) => {
-                                window.location.replace("https://foromusa.com/");
+                                window.location.replace("https://forolatamcardiometabolico.com/Login/");
                             });
 
                             
