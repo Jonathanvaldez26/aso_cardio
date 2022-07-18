@@ -53,122 +53,7 @@ echo $header;
 
                                                                         <ul style="list-style-type: none;">
                                                                             <li>
-                                                                                <p>1. Coordinación de Traslados.</p>
-                                                                                <div class="row mt-4 d-flex justify-content-center text-center">
-                                                                                    <div class="col-sm-1 ">
-                                                                                        <input type="radio" class="btn-check btn-face-green" id="btncheck4" name="group2" required value="3">
-                                                                                        <label class="color-face-green btn btn-lg btn-outline-secondary border-2 px-2 py-2 color-face-green" for="btncheck4">
-                                                                                            <i class="far fa-grin-beam"></i>
-                                                                                        </label>
-                                                                                        <h6></h6>
-                                                                                    </div>
-                                                                                    <div class="col-sm-1 ">
-                                                                                        <input type="radio" class="btn-check btn-face-yellow" id="btncheck5" name="group2" required value="2">
-                                                                                        <label class="color-face-yellow btn btn-lg btn-outline-secondary border-2 px-2 py-2 color-face-yellow" for="btncheck5">
-                                                                                            <i class="far fa-grin"></i>
-                                                                                        </label>
-                                                                                        <h6></h6>
-                                                                                    </div>
-                                                                                    <div class="col-sm-1 ">
-                                                                                        <input type="radio" class="btn-check btn-face-orange" id="btncheck6" name="group2" required value="1">
-                                                                                        <label class="color-face-orange btn btn-lg btn-outline-secondary border-2 px-2 py-2 color-face-orange" for="btncheck6">
-                                                                                            <i class="far fa-meh"></i>
-                                                                                        </label>
-                                                                                        <h6></h6>
-                                                                                    </div>
-                                                                                    <div class="col-sm-1 ">
-                                                                                        <input type="radio" class="btn-check btn-face-red" id="btncheck7" name="group2" required value="0">
-                                                                                        <label class="color-face-red btn btn-lg btn-outline-secondary border-2 px-2 py-2 color-face-red" for="btncheck7">
-                                                                                            <i class="far fa-frown"></i>
-                                                                                        </label>
-                                                                                        <h6></h6>
-                                                                                    </div>
-
-                                                                                </div>
-                                                                            </li>
-
-                                                                            <li>
-                                                                                <p>2. Calidad de las instalaciones (alojamiento y salones).</p>
-                                                                                <div class="row mt-4 d-flex justify-content-center text-center">
-                                                                                    <div class="col-sm-1 ">
-                                                                                        <input type="radio" class="btn-check btn-face-green" id="btncheck8" name="group3" required value="3">
-                                                                                        <label class="color-face-green btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck8">
-                                                                                            <i class="far fa-grin-beam"></i>
-                                                                                        </label>
-                                                                                        <h6></h6>
-                                                                                    </div>
-                                                                                    <div class="col-sm-1 ">
-                                                                                        <input type="radio" class="btn-check btn-face-yellow" id="btncheck9" name="group3" required value="2">
-                                                                                        <label class="color-face-yellow btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck9">
-                                                                                            <i class="far fa-grin"></i>
-                                                                                        </label>
-                                                                                        <h6></h6>
-                                                                                    </div>
-                                                                                    <div class="col-sm-1 ">
-                                                                                        <input type="radio" class="btn-check btn-face-orange" id="btncheck10" name="group3" required value="1">
-                                                                                        <label class="color-face-orange btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck10">
-                                                                                            <i class="far fa-meh"></i>
-                                                                                        </label>
-                                                                                        <h6></h6>
-                                                                                    </div>
-                                                                                    <div class="col-sm-1 ">
-                                                                                        <input type="radio" class="btn-check btn-face-red" id="btncheck11" name="group3" required value="0">
-                                                                                        <label class="color-face-red btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck11">
-                                                                                            <i class="far fa-frown"></i>
-                                                                                        </label>
-                                                                                        <h6></h6>
-                                                                                    </div>
-
-                                                                                </div>
-                                                                            </li>
-
-
-                                                                            <li>
-                                                                                <p>3. Valoración global del evento (traslados, alojamiento, alimentación, atención del staff tecnofarma)</p>
-                                                                                <div class="row mt-4 d-flex justify-content-center text-center">
-                                                                                    <div class="col-sm-1 ">
-                                                                                        <input type="radio" class="btn-check btn-face-green" id="btncheck12" name="group4" required value="3">
-                                                                                        <label class="color-face-green btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck12">
-                                                                                            <i class="far fa-grin-beam"></i>
-                                                                                        </label>
-                                                                                        <h6></h6>
-                                                                                    </div>
-                                                                                    <div class="col-sm-1 ">
-                                                                                        <input type="radio" class="btn-check btn-face-yellow" id="btncheck13" name="group4" required value="2">
-                                                                                        <label class="color-face-yellow btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck13">
-                                                                                            <i class="far fa-grin"></i>
-                                                                                        </label>
-                                                                                        <h6></h6>
-                                                                                    </div>
-                                                                                    <div class="col-sm-1 ">
-                                                                                        <input type="radio" class="btn-check btn-face-orange" id="btncheck14" name="group4" required value="1">
-                                                                                        <label class="color-face-orange btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck14">
-                                                                                            <i class="far fa-meh"></i>
-                                                                                        </label>
-                                                                                        <h6></h6>
-                                                                                    </div>
-                                                                                    <div class="col-sm-1 ">
-                                                                                        <input type="radio" class="btn-check btn-face-red" id="btncheck15" name="group4" required value="0">
-                                                                                        <label class="color-face-red btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck15">
-                                                                                            <i class="far fa-frown"></i>
-                                                                                        </label>
-                                                                                        <h6></h6>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="row">
-                                                                                    <div class="col-md-12">
-
-                                                                                        <label for="btncheck15">
-                                                                                            Comentarios adicionales.
-                                                                                        </label>
-                                                                                        <textarea class="form-control" id="text_preg_3" name="text_preg_3"></textarea>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </li>
-
-                                                                            <li>
-                                                                                <p>4. Calidad de la agenda científica.</p>
+                                                                                <p>1. Calidad de la agenda científica.</p>
                                                                                 <div class="row mt-4 d-flex justify-content-center text-center">
                                                                                     <div class="col-sm-1 ">
                                                                                         <input type="radio" class="btn-check btn-face-green" id="btncheck16" name="group5" required value="3">
@@ -203,7 +88,7 @@ echo $header;
                                                                             </li>
 
                                                                             <li>
-                                                                                <p>5. Nivel de los expositores.</p>
+                                                                                <p>2. Nivel de los expositores.</p>
                                                                                 <table class="table">
                                                                                     <tr>
                                                                                         <td>
@@ -569,7 +454,7 @@ echo $header;
                                                                             </li>
 
                                                                             <li>
-                                                                                <p>6. Valoración respecto al tiempo destinado a las conferencias, preguntas y mesas redondas.</p>
+                                                                                <p>3. Valoración respecto al tiempo destinado a las conferencias, preguntas y mesas redondas.</p>
                                                                                 <div class="row mt-4 d-flex justify-content-center text-center">
                                                                                     <div class="col-sm-1 ">
                                                                                         <input type="radio" class="btn-check btn-face-green" id="btncheck140" name="group36" required value="3">
@@ -604,7 +489,7 @@ echo $header;
                                                                             </li>
 
                                                                             <li>
-                                                                                <p>7. Seleccione cuáles fueron los temas de mayor interés para su práctica diaria (seleccionar hasta 3):</p>
+                                                                                <p>4. Seleccione cuáles fueron los temas de mayor interés para su práctica diaria (seleccionar hasta 3):</p>
                                                                                 <div class="row mt-4 d-flex justify-content-evenly text-center">
                                                                                     <div class="col-sm-1 ">
                                                                                         <input type="checkbox" class="btn-check btn-face-" id="btncheck144" name="group37_1" value="4">
@@ -646,7 +531,7 @@ echo $header;
                                                                             </li>
 
                                                                             <li>
-                                                                                <p>8. Considera que hubo temas importantes que quedaron fuera de la agenda</p>
+                                                                                <p>5. Considera que hubo temas importantes que quedaron fuera de la agenda</p>
                                                                                 <div class="row mt-4 d-flex justify-content-center text-center">
                                                                                     <div class="col-sm-1 ">
                                                                                         <input type="radio" class="btn-check btn-face-" id="btncheck148" name="group38" required value="si">
@@ -676,7 +561,7 @@ echo $header;
                                                                             </li>
 
                                                                             <li>
-                                                                                <p>9. Desde el punto de vista científico, volvería a participar de un foro de cardiometabolismo – latam?</p>
+                                                                                <p>6. Desde el punto de vista científico, volvería a participar en un Foro Cardiometabólico?</p>
                                                                                 <div class="row mt-4 d-flex justify-content-center text-center">
                                                                                     <div class="col-sm-1 ">
                                                                                         <input type="radio" class="btn-check btn-face-" id="btncheck150" name="group39" required value="si">
@@ -693,6 +578,121 @@ echo $header;
                                                                                         <h6></h6>
                                                                                     </div>
 
+                                                                                </div>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <p>7. Coordinación de Traslados.</p>
+                                                                                <div class="row mt-4 d-flex justify-content-center text-center">
+                                                                                    <div class="col-sm-1 ">
+                                                                                        <input type="radio" class="btn-check btn-face-green" id="btncheck4" name="group2" required value="3">
+                                                                                        <label class="color-face-green btn btn-lg btn-outline-secondary border-2 px-2 py-2 color-face-green" for="btncheck4">
+                                                                                            <i class="far fa-grin-beam"></i>
+                                                                                        </label>
+                                                                                        <h6></h6>
+                                                                                    </div>
+                                                                                    <div class="col-sm-1 ">
+                                                                                        <input type="radio" class="btn-check btn-face-yellow" id="btncheck5" name="group2" required value="2">
+                                                                                        <label class="color-face-yellow btn btn-lg btn-outline-secondary border-2 px-2 py-2 color-face-yellow" for="btncheck5">
+                                                                                            <i class="far fa-grin"></i>
+                                                                                        </label>
+                                                                                        <h6></h6>
+                                                                                    </div>
+                                                                                    <div class="col-sm-1 ">
+                                                                                        <input type="radio" class="btn-check btn-face-orange" id="btncheck6" name="group2" required value="1">
+                                                                                        <label class="color-face-orange btn btn-lg btn-outline-secondary border-2 px-2 py-2 color-face-orange" for="btncheck6">
+                                                                                            <i class="far fa-meh"></i>
+                                                                                        </label>
+                                                                                        <h6></h6>
+                                                                                    </div>
+                                                                                    <div class="col-sm-1 ">
+                                                                                        <input type="radio" class="btn-check btn-face-red" id="btncheck7" name="group2" required value="0">
+                                                                                        <label class="color-face-red btn btn-lg btn-outline-secondary border-2 px-2 py-2 color-face-red" for="btncheck7">
+                                                                                            <i class="far fa-frown"></i>
+                                                                                        </label>
+                                                                                        <h6></h6>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                            </li>
+
+                                                                            <li>
+                                                                                <p>8. Calidad de las instalaciones (alojamiento y salones).</p>
+                                                                                <div class="row mt-4 d-flex justify-content-center text-center">
+                                                                                    <div class="col-sm-1 ">
+                                                                                        <input type="radio" class="btn-check btn-face-green" id="btncheck8" name="group3" required value="3">
+                                                                                        <label class="color-face-green btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck8">
+                                                                                            <i class="far fa-grin-beam"></i>
+                                                                                        </label>
+                                                                                        <h6></h6>
+                                                                                    </div>
+                                                                                    <div class="col-sm-1 ">
+                                                                                        <input type="radio" class="btn-check btn-face-yellow" id="btncheck9" name="group3" required value="2">
+                                                                                        <label class="color-face-yellow btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck9">
+                                                                                            <i class="far fa-grin"></i>
+                                                                                        </label>
+                                                                                        <h6></h6>
+                                                                                    </div>
+                                                                                    <div class="col-sm-1 ">
+                                                                                        <input type="radio" class="btn-check btn-face-orange" id="btncheck10" name="group3" required value="1">
+                                                                                        <label class="color-face-orange btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck10">
+                                                                                            <i class="far fa-meh"></i>
+                                                                                        </label>
+                                                                                        <h6></h6>
+                                                                                    </div>
+                                                                                    <div class="col-sm-1 ">
+                                                                                        <input type="radio" class="btn-check btn-face-red" id="btncheck11" name="group3" required value="0">
+                                                                                        <label class="color-face-red btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck11">
+                                                                                            <i class="far fa-frown"></i>
+                                                                                        </label>
+                                                                                        <h6></h6>
+                                                                                    </div>
+
+                                                                                </div>
+                                                                            </li>
+
+
+                                                                            <li>
+                                                                                <p>9. Valoración global del evento (traslados, alojamiento, alimentación, atención del staff tecnofarma)</p>
+                                                                                <div class="row mt-4 d-flex justify-content-center text-center">
+                                                                                    <div class="col-sm-1 ">
+                                                                                        <input type="radio" class="btn-check btn-face-green" id="btncheck12" name="group4" required value="3">
+                                                                                        <label class="color-face-green btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck12">
+                                                                                            <i class="far fa-grin-beam"></i>
+                                                                                        </label>
+                                                                                        <h6></h6>
+                                                                                    </div>
+                                                                                    <div class="col-sm-1 ">
+                                                                                        <input type="radio" class="btn-check btn-face-yellow" id="btncheck13" name="group4" required value="2">
+                                                                                        <label class="color-face-yellow btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck13">
+                                                                                            <i class="far fa-grin"></i>
+                                                                                        </label>
+                                                                                        <h6></h6>
+                                                                                    </div>
+                                                                                    <div class="col-sm-1 ">
+                                                                                        <input type="radio" class="btn-check btn-face-orange" id="btncheck14" name="group4" required value="1">
+                                                                                        <label class="color-face-orange btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck14">
+                                                                                            <i class="far fa-meh"></i>
+                                                                                        </label>
+                                                                                        <h6></h6>
+                                                                                    </div>
+                                                                                    <div class="col-sm-1 ">
+                                                                                        <input type="radio" class="btn-check btn-face-red" id="btncheck15" name="group4" required value="0">
+                                                                                        <label class="color-face-red btn btn-lg btn-outline-secondary border-2 px-2 py-2" for="btncheck15">
+                                                                                            <i class="far fa-frown"></i>
+                                                                                        </label>
+                                                                                        <h6></h6>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="row">
+                                                                                    <div class="col-md-12">
+
+                                                                                        <label for="btncheck15">
+                                                                                            Comentarios adicionales.
+                                                                                        </label>
+                                                                                        <textarea class="form-control" id="text_preg_3" name="text_preg_3"></textarea>
+
+                                                                                    </div>
                                                                                 </div>
                                                                             </li>
 
