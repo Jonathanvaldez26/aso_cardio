@@ -315,6 +315,22 @@
                         </a>
                     </div>
 
+                    <div class="col-md-6 mt-4" id="cont-itinerario" <?=$permisos_mexico;?>>
+                        <a href="/Programa/">
+                            <div class="card card-link">
+                                <div class="card-body text-center">
+                                    <div class="col-12 text-center">
+                                        <img class="w-30 btn-img-home" src="../../assets/img/icons/iCONOS-07.png">
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <h6 class="mb-0 font-weight-bolder">Videos</h6>
+                                    <p class="opacity-8 mb-0 text-sm">Disponible <i class="fa fa-check-circle me-sm-0" style="color: #01a31c"></i></p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
                     <!-- <div class="col-md-6 mt-4">
                         <a href="/News/">
                             <div class="card card-link">
