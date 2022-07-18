@@ -1,5 +1,5 @@
 <title>
-    Cursos - Neuropediatría
+    Programa
 </title>
 <?php echo $header; ?>
 <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg ">
@@ -68,7 +68,7 @@
                         <div class="col-sm-auto col-8 my-auto">
                             <div class="h-100">
                                 <h5 class="mb-1 font-weight-bolder" id="nombre_transmision">
-                                 Plática
+                                 Pláticas
                                 </h5>
                             </div>
                         </div>
