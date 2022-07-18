@@ -216,24 +216,41 @@ html;
             if($id >= 1){
                 $user = EncuestasDao::getUserEncuesta($email)[0];
                 if($user){
-                    $nombre_completo = $user['nombre']." ".$user['segundo_nombre']." ".$user['apellido_paterno']." ".$user['apellido_materno'];
-                    $data_pdf = [
-                        "nombre"  => mb_strtoupper($nombre_completo),
-                        "email" => $email,
-                        "clave" => $user['clave']
-                        
-                    ];
-                    $this->generarPDF($data_pdf);
-                    $datos = [
-                        "status" => "success",
-                        "msg" => "¡Gracias por contestar la encuesta!",
-                        "clave" =>  $user['clave']                    
-                    ];
+                    if($user['segundo_nombre'] != ''){
+                        $nombre_completo = $user['nombre']." ".$user['segundo_nombre']." ".$user['apellido_paterno'];
+                        $data_pdf = [
+                            "nombre"  => mb_strtoupper($nombre_completo),
+                            "email" => $email,
+                            "clave" => $user['clave']
+                            
+                        ];
+                        $this->generarPDF($data_pdf);
+                        $datos = [
+                            "status" => "success",
+                            "msg" => "¡Gracias por contestar la encuesta!",
+                            "clave" =>  $user['clave']                    
+                        ];
+                    } 
+                    else{
+                        $nombre_completo = $user['nombre']." ".$user['apellido_paterno']." ".$user['apellido_materno'];
+                        $data_pdf = [
+                            "nombre"  => mb_strtoupper($nombre_completo),
+                            "email" => $email,
+                            "clave" => $user['clave']
+                            
+                        ];
+                        $this->generarPDF($data_pdf);
+                        $datos = [
+                            "status" => "success",
+                            "msg" => "¡Gracias por contestar la encuesta!",
+                            "clave" =>  $user['clave']                    
+                        ];
+                    }
                 } else{
                     $datos = [
                         "status" => "success_2",
                         "msg" => "¡Gracias por contestar la encuesta!",
-                        "msg2" => "Recuerda que la constancia solo sera liberada para aquellas personas que cuentan con el 70% de asistencia al evento."
+                        "msg2" => "Recuerda que la constancia solo sera liberada para aquellas personas que asistieron al evento."
                                            
                     ];
                 }               
@@ -287,7 +304,7 @@ html;
                   }
                   .name{
                       font-family: Arial, Helvetica, sans-serif;
-                      font-size: 50px;
+                      font-size: 48px;
                     
                   }
                   
