@@ -62,13 +62,13 @@
                     <div class="row justify-content-center align-items-center">
                         <div class="col-sm-auto col-4">
                             <div class="avatar avatar-xl position-relative">
-                                <img src="/assets/img/Logo_SMN.png">
+                                <!-- <img src="/assets/img/Logo_SMN.png"> -->
                             </div>
                         </div>
                         <div class="col-sm-auto col-8 my-auto">
                             <div class="h-100">
                                 <h5 class="mb-1 font-weight-bolder" id="nombre_transmision">
-                                    Videos
+                                 Plática
                                 </h5>
                             </div>
                         </div>

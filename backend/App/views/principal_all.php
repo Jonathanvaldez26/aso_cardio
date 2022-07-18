@@ -324,7 +324,7 @@
                                         <br>
                                     </div>
                                     <br>
-                                    <h6 class="mb-0 font-weight-bolder">Videos</h6>
+                                    <h6 class="mb-0 font-weight-bolder">Pláticas</h6>
                                     <p class="opacity-8 mb-0 text-sm">Disponible <i class="fa fa-check-circle me-sm-0" style="color: #01a31c"></i></p>
                                 </div>
                             </div>
