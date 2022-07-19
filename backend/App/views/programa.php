@@ -77,9 +77,6 @@
 
                         </div>
                         <div class="col-sm-auto ms-sm-auto mt-sm-0 mt-3 d-flex">
-                            <a href="/Home/" class="mt-2 me-2 btn-move">
-                                <span class="text-dark mt-2"><i class="fas fa-undo"></i> Regresar</span>
-                            </a>
                             <div class="form-check form-switch ms-2 p-0">
                                 <div class="row text-center">
 
@@ -87,20 +84,20 @@
 
                                         <div class="nav-wrapper position-relative end-0">
 
-                                            <ul class="nav nav-pills nav-fill p-1 bg-transparent" role="tablist" style="display: none;">
+                                            <ul class="nav nav-pills nav-fill p-1 bg-transparent" role="tablist">
                                                 <li class="nav-item transmisiones px-3" data-transmision="1">
                                                     <a class="nav-link mb-0 px-0 py-1 active" href="#m_21" data-bs-toggle="tab" role="tab" aria-selected="true">
                                                         <span class="fa fa-calendar"></span>
-                                                        <span class="ms-1">21 de Junio</span>
-                                                    </a>
-                                                </li>
-                                                <!-- <li class="nav-item transmisiones px-3" data-transmision="2">
-                                                    <a class="nav-link mb-0 px-0 py-1" href="#m_22" data-bs-toggle="tab" role="tab" aria-selected="false">
-                                                        <span class="fa fa-calendar"></span>
-                                                        <span class="ms-1">22 de Junio</span>
+                                                        <span class="ms-1">15 de Julio</span>
                                                     </a>
                                                 </li>
                                                 <li class="nav-item transmisiones px-3" data-transmision="2">
+                                                    <a class="nav-link mb-0 px-0 py-1" href="#m_22" data-bs-toggle="tab" role="tab" aria-selected="false">
+                                                        <span class="fa fa-calendar"></span>
+                                                        <span class="ms-1">16 de Julio</span>
+                                                    </a>
+                                                </li>
+                                                <!-- <li class="nav-item transmisiones px-3" data-transmision="2">
                                                     <a class="nav-link mb-0 px-0 py-1" href="#m_23" data-bs-toggle="tab" role="tab" aria-selected="false">
                                                         <span class="fa fa-calendar"></span>
                                                         <span class="ms-1">23 de Junio</span>
@@ -117,6 +114,9 @@
                                     </div>
                                 </div>
                             </div>
+                            <a href="/Home/" class="mt-2 me-2 btn-move">
+                                <span class="text-dark mt-2"><i class="fas fa-undo"></i> Regresar</span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -132,26 +132,349 @@
                         <div class="card-header pb-0 p-3">
                             <div class="row">
                                 <div style="border-radius: 20px; height: 38px; color:white; display:flex; justify-content:center;" class="bg-gradient-faded-musa" >
-                                    MODULO 4
+                                    MÓDULO 1
                                 </div>
                             </div>
                         </div>
 
+                        <div class="card-body p-3">
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-2">
+                                    <span class="color-yellow text-bold">
+                                        <!-- {$hora_inicio} - {$hora_fin} -->
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <a href="#" data-toggle="modal" data-target="#ver-video" class="btn-video" data-video="https://player.vimeo.com/video/730478304?h=3df2752b86" data-download="https://vimeo.com/user161130807/download/730478304/e4b780c568" data-title="Las guías a ambos lados del Atlántico: ¿Nos dicen lo mismo o son muy distintas?">
+                                        <span class="color-green text-bold font-20 text-lg">
+                                            Las guías a ambos lados del Atlántico: ¿Nos dicen lo mismo o son muy distintas?
+                                        </span>
 
-                        <!-- <div class="card-body p-3">
-                            <div class="row mt-3">
-                                    <?php //echo $card_programa; 
-                                    ?>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4">
+
+                                    <span class="color-vine font-14 text-bold">
+                                        Profesor:
+                                    </span>
+                                    <br>
+                                    <span class="color-vine font-14 text-bold">
+                                        Dr. José Zamorano
+                                    </span>
+
+                                </div>
                             </div>
-                        </div> -->
 
+                            <br>
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-2">
+                                    <span class="color-yellow text-bold">
+                                        <!-- {$hora_inicio} - {$hora_fin} -->
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <a href="#" data-toggle="modal" data-target="#ver-video" class="btn-video" data-video="https://player.vimeo.com/video/730437785" data-download="https://vimeo.com/user161130807/download/730437785/b25d29b593" data-title="¿Cómo seleccionar la terapia combinada de inicio y a quiénes?">
+                                        <span class="color-green text-bold font-20 text-lg">
+                                            ¿Cómo seleccionar la terapia combinada de inicio y a quiénes?
+                                        </span>
+
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4">
+
+                                    <span class="color-vine font-14 text-bold">
+                                        Profesor:
+                                    </span>
+                                    <br>
+                                    <span class="color-vine font-14 text-bold">
+                                        Dr. José Juanatey
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <br>
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-2">
+                                    <span class="color-yellow text-bold">
+                                        <!-- {$hora_inicio} - {$hora_fin} -->
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <a href="#" data-toggle="modal" data-target="#ver-video" class="btn-video" data-video="https://player.vimeo.com/video/730436766" data-download="https://vimeo.com/user161130807/download/730436766/24e1b55b85" data-title="Perfil del paciente para las diferentes combinaciones de bloqueantes del sistema ARA2: calcioantagonistas, diuréticos, triple terapia.">
+                                        <span class="color-green text-bold font-20 text-lg">
+                                            Perfil del paciente para las diferentes combinaciones de bloqueantes del sistema ARA2: calcioantagonistas, diuréticos, triple terapia.
+                                        </span>
+
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4">
+
+                                    <span class="color-vine font-14 text-bold">
+                                        Profesor:
+                                    </span>
+                                    <br>
+                                    <span class="color-vine font-14 text-bold">
+                                        Dr. Vivencio Barrios
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <br>
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-2">
+                                    <span class="color-yellow text-bold">
+                                        <!-- {$hora_inicio} - {$hora_fin} -->
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <a href="#" data-toggle="modal" data-target="#ver-video" class="btn-video" data-video="https://player.vimeo.com/video/730611606?h=73bd64dbaa" data-download="https://vimeo.com/user161130807/download/730611606/48a7f083b0" data-title="Discusión. Comentarios cierre de módulo">
+                                        <span class="color-green text-bold font-20 text-lg">
+                                            Discusión. Comentarios cierre de módulo
+                                        </span>
+
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4">
+
+                                    <span class="color-vine font-14 text-bold">
+                                        <!-- Profesor: -->
+                                    </span>
+                                    <br>
+                                    <span class="color-vine font-14 text-bold">
+                                        <!-- Dr. José Juanetey -->
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div style="border-radius: 20px; height: 38px; color:white; display:flex; justify-content:center;" class="bg-gradient-faded-musa" >
+                                    MÓDULO 2
+                                </div>
+                            </div>
+
+                            <br>
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-2">
+                                    <span class="color-yellow text-bold">
+                                        <!-- {$hora_inicio} - {$hora_fin} -->
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <a href="#" data-toggle="modal" data-target="#ver-video" class="btn-video" data-video="https://player.vimeo.com/video/730478610?h=9c18df3f26" data-download="https://vimeo.com/user161130807/download/730478610/acb5751d29" data-title="¿Cuáles son los objetivos en el paciente de alto riesgo y muy alto riesgo? ¿Y en el paciente diabético, qué hacemos?.">
+                                        <span class="color-green text-bold font-20 text-lg">
+                                            ¿Cuáles son los objetivos en el paciente de alto riesgo y muy alto riesgo? ¿Y en el paciente diabético, qué hacemos?
+                                        </span>
+
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4">
+
+                                    <span class="color-vine font-14 text-bold">
+                                        Profesor:
+                                    </span>
+                                    <br>
+                                    <span class="color-vine font-14 text-bold">
+                                        Dr. José Zamorano
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <br>
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-2">
+                                    <span class="color-yellow text-bold">
+                                        <!-- {$hora_inicio} - {$hora_fin} -->
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <a href="#" data-toggle="modal" data-target="#ver-video" class="btn-video" data-video="https://player.vimeo.com/video/730475597?h=56a1700cd9" data-download="https://vimeo.com/user161130807/download/730475597/bea03d4608" data-title="Inicio con monoterapia vs combinaciones en el paciente crónico y en el agudo (IAM, ACV): Experiencia clínica.">
+                                        <span class="color-green text-bold font-20 text-lg">
+                                            Inicio con monoterapia vs combinaciones en el paciente crónico y en el agudo (IAM, ACV): Experiencia clínica.
+                                        </span>
+
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4">
+
+                                    <span class="color-vine font-14 text-bold">
+                                        Profesor:
+                                    </span>
+                                    <br>
+                                    <span class="color-vine font-14 text-bold">
+                                        Dr. Raul Santos
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <br>
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-2">
+                                    <span class="color-yellow text-bold">
+                                        <!-- {$hora_inicio} - {$hora_fin} -->
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <a href="#" data-toggle="modal" data-target="#ver-video" class="btn-video" data-video="https://player.vimeo.com/video/730475020?h=9ad1958c5d" data-download="https://vimeo.com/user161130807/download/730475020/02a5d362f4" data-title="Discusión. Comentarios cierre de módulo">
+                                        <span class="color-green text-bold font-20 text-lg">
+                                            Discusión. Comentarios cierre de módulo
+                                        </span>
+
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4">
+
+                                    <span class="color-vine font-14 text-bold">
+                                        <!-- Profesor: -->
+                                    </span>
+                                    <br>
+                                    <span class="color-vine font-14 text-bold">
+                                        <!-- Dr. Rodolfo Galindo -->
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div style="border-radius: 20px; height: 38px; color:white; display:flex; justify-content:center;" class="bg-gradient-faded-musa" >
+                                    MÓDULO 3
+                                </div>
+                            </div>
+
+                            <br>
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-2">
+                                    <span class="color-yellow text-bold">
+                                        <!-- {$hora_inicio} - {$hora_fin} -->
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <a href="#" data-toggle="modal" data-target="#ver-video" class="btn-video" data-video="https://player.vimeo.com/video/730451236?h=5209927552" data-download="https://vimeo.com/user161130807/download/730451236/aa6d411b26" data-title="La obesidad como enfermedad: Manejo en la práctica cardiovascular.">
+                                        <span class="color-green text-bold font-20 text-lg">
+                                            La obesidad como enfermedad: Manejo en la práctica cardiovascular.
+                                        </span>
+
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4">
+
+                                    <span class="color-vine font-14 text-bold">
+                                        Profesor:
+                                    </span>
+                                    <br>
+                                    <span class="color-vine font-14 text-bold">
+                                        Dr. Rodolfo Galindo
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <br>
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-2">
+                                    <span class="color-yellow text-bold">
+                                        <!-- {$hora_inicio} - {$hora_fin} -->
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <a href="#" data-toggle="modal" data-target="#ver-video" class="btn-video" data-video="https://player.vimeo.com/video/730479830?h=136fe28925" data-download="https://vimeo.com/user161130807/download/730479830/5fec2057b4" data-title="Combinaciones de tratamientos no LGP1 para la obesidad.">
+                                        <span class="color-green text-bold font-20 text-lg">
+                                            Combinaciones de tratamientos no LGP1 para la obesidad.
+                                        </span>
+
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4">
+
+                                    <span class="color-vine font-14 text-bold">
+                                        Profesor:
+                                    </span>
+                                    <br>
+                                    <span class="color-vine font-14 text-bold">
+                                        Dr. Leonardo Mancilla
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <br>
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-2">
+                                    <span class="color-yellow text-bold">
+                                        <!-- {$hora_inicio} - {$hora_fin} -->
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <a href="#" data-toggle="modal" data-target="#ver-video" class="btn-video" data-video="https://player.vimeo.com/video/730482819?h=ac4934714f" data-download="https://vimeo.com/user161130807/download/730482819/de52f88351" data-title="Asociación entre obesidad, diabetes en la prevención de la enfermedad cardiovascular.">
+                                        <span class="color-green text-bold font-20 text-lg">
+                                            Asociación entre obesidad, diabetes en la prevención de la enfermedad cardiovascular.
+                                        </span>
+
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4">
+
+                                    <span class="color-vine font-14 text-bold">
+                                        Profesor:
+                                    </span>
+                                    <br>
+                                    <span class="color-vine font-14 text-bold">
+                                        Dr. Enrique Caballero
+                                    </span>
+
+                                </div>
+                            </div>
+
+                            <br>
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-2">
+                                    <span class="color-yellow text-bold">
+                                        <!-- {$hora_inicio} - {$hora_fin} -->
+                                    </span>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <a href="#" data-toggle="modal" data-target="#ver-video" class="btn-video" data-video="https://player.vimeo.com/video/730480470?h=bcd778a1a8" data-download="https://vimeo.com/user161130807/download/730480470/3e50325f64" data-title="Discusión. Comentarios cierre de módulo">
+                                        <span class="color-green text-bold font-20 text-lg">
+                                            Discusión. Comentarios cierre de módulo
+                                        </span>
+
+                                    </a>
+                                </div>
+                                <div class="col-12 col-md-4">
+
+                                    <span class="color-vine font-14 text-bold">
+                                        <!-- Profesor: -->
+                                    </span>
+                                    <br>
+                                    <span class="color-vine font-14 text-bold">
+                                        <!-- Dr. Rodolfo Galindo -->
+                                    </span>
+
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="button-row d-flex mt-4 col-12">
+                                    <a class="btn bg-gradient-light mb-0 js-btn-prev" href="/Home/" title="Prev">Regresar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade show position-relative border-radius-lg" id="m_22" role="tabpanel" aria-labelledby="m_22">
+                        <div class="card-header pb-0 p-3">
+                            <div class="row">
+                                <div style="border-radius: 20px; height: 38px; color:white; display:flex; justify-content:center;" class="bg-gradient-faded-musa" >
+                                    MÓDULO 4
+                                </div>
+                            </div>
+                        </div>
 
                         <div class="card-body p-3">
-                            <?php //echo $programa_fecha1; 
-                            ?>
-
-
-
                             <div class="row mb-3">
                                 <div class="col-12 col-md-2">
                                     <span class="color-yellow text-bold">
@@ -265,7 +588,7 @@
 
                             <div class="row">
                                 <div style="border-radius: 20px; height: 38px; color:white; display:flex; justify-content:center;" class="bg-gradient-faded-musa" >
-                                    MODULO 5
+                                    MÓDULO 5
                                 </div>
                             </div>
 
@@ -477,10 +800,6 @@
                                 </div>
                             </div>
 
-
-
-
-
                             <div class="row">
                                 <div class="button-row d-flex mt-4 col-12">
                                     <a class="btn bg-gradient-light mb-0 js-btn-prev" href="/Home/" title="Prev">Regresar</a>
@@ -488,54 +807,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="tab-pane fade position-relative border-radius-lg" id="m_22" role="tabpanel" aria-labelledby="m_22">
-                        <div class="card-header pb-0 p-3">
-                            <div class="row">
-                                <div style="background-color: rgb( 0 145 135 ); border-radius: 20px; height: 38px;"></div>
-                            </div>
-                        </div>
-
-                        <div class="card-body p-3">
-                            <?php echo $programa_fecha2; ?>
-                            <div class="row">
-                                <div class="button-row d-flex mt-4 col-12">
-                                    <a class="btn bg-gradient-light mb-0 js-btn-prev" href="/Home/" title="Prev">Regresar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade position-relative border-radius-lg" id="m_23" role="tabpanel" aria-labelledby="m_23">
-                        <div class="card-header pb-0 p-3">
-                            <div class="row">
-                                <div style="background-color: rgb( 0 145 135 ); border-radius: 20px; height: 38px;"></div>
-                            </div>
-                        </div>
-
-                        <div class="card-body p-3">
-                            <?php echo $programa_fecha3; ?>
-                            <div class="row">
-                                <div class="button-row d-flex mt-4 col-12">
-                                    <a class="btn bg-gradient-light mb-0 js-btn-prev" href="/Home/" title="Prev">Regresar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade position-relative border-radius-lg" id="m_24" role="tabpanel" aria-labelledby="m_24">
-                        <div class="card-header pb-0 p-3">
-                            <div class="row">
-                                <div style="background-color: rgb( 0 145 135 ); border-radius: 20px; height: 38px;"></div>
-                            </div>
-                        </div>
-
-                        <div class="card-body p-3">
-                            <?php echo $programa_fecha4; ?>
-                            <div class="row">
-                                <div class="button-row d-flex mt-4 col-12">
-                                    <a class="btn bg-gradient-light mb-0 js-btn-prev" href="/Home/" title="Prev">Regresar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
 
 
