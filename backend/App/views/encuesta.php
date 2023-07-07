@@ -92,7 +92,7 @@ echo $header;
                                                                                 <table class="table">
                                                                                 <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/profesor_1" alt="" class="photo">
+                                                                                            <img src="/assets/images/dr_musa/profesor_1.png" alt="" class="photo">
                                                                                             DR. ALBERTO MARIO CAFFERATA
                                                                                         </td>
                                                                                         <td>
@@ -132,7 +132,7 @@ echo $header;
 
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/profesor_2" alt="" class="photo">
+                                                                                            <img src="/assets/images/dr_musa/profesor_2.png" alt="" class="photo">
                                                                                             DR. RODOLFO DANIEL LA GRECA
                                                                                         </td>
                                                                                         <td>
@@ -172,7 +172,7 @@ echo $header;
 
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/profesor_3" alt="" class="photo">
+                                                                                            <img src="/assets/images/dr_musa/profesor_3.png" alt="" class="photo">
                                                                                             DR. ANTONIO COCA PAYERAS
                                                                                         </td>
                                                                                         <td>
@@ -212,8 +212,8 @@ echo $header;
 
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/profesor_4" alt="" class="photo">
-                                                                                            <!-- DR. JOSÉ LUIS ZAMORANO GÓMEZ -->
+                                                                                            <img src="/assets/images/dr_musa/profesor_4.png" alt="" class="photo">
+                                                                                            DR. JOSÉ LUIS ZAMORANO GÓMEZ
                                                                                         </td>
                                                                                         <td>
                                                                                             <div class="row mt-4 d-flex justify-content-around text-center">
@@ -252,8 +252,8 @@ echo $header;
 
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/profesor_5" alt="" class="photo">
-                                                                                            <!-- DR. LUIS ANTONIO ALCOCER DÍAZ BARREIRO  -->
+                                                                                            <img src="/assets/images/dr_musa/profesor_5.png" alt="" class="photo">
+                                                                                            DR. LUIS ANTONIO ALCOCER DÍAZ BARREIRO 
                                                                                         </td>
                                                                                         <td>
                                                                                             <div class="row mt-4 d-flex justify-content-around text-center">
@@ -292,8 +292,8 @@ echo $header;
 
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/profesor_6" alt="" class="photo">
-                                                                                            <!-- DR. CARLOS A. MORILLO -->
+                                                                                            <img src="/assets/images/dr_musa/profesor_6.png" alt="" class="photo">
+                                                                                            DR. CARLOS A. MORILLO
                                                                                         </td>
                                                                                         <td>
                                                                                             <div class="row mt-4 d-flex justify-content-around text-center">
@@ -332,8 +332,8 @@ echo $header;
 
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/profesor_7" alt="" class="photo">
-                                                                                                <!-- DR. HERALD MANRIQUE HURTADO -->
+                                                                                            <img src="/assets/images/dr_musa/profesor_7.png" alt="" class="photo">
+                                                                                                DR. HERALD MANRIQUE HURTADO
                                                                                         </td>
                                                                                         <td>
                                                                                             <div class="row mt-4 d-flex justify-content-around text-center">
@@ -372,8 +372,8 @@ echo $header;
 
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/profesor_8" alt="" class="photo">
-                                                                                                <!-- DR. BARTOLOMÉ BURGUERA -->
+                                                                                            <img src="/assets/images/dr_musa/profesor_8.png" alt="" class="photo">
+                                                                                                DR. BARTOLOMÉ BURGUERA
                                                                                         </td>
                                                                                         <td>
                                                                                             <div class="row mt-4 d-flex justify-content-around text-center">
@@ -412,8 +412,8 @@ echo $header;
 
                                                                                     <tr>
                                                                                         <td>
-                                                                                            <img src="/assets/images/dr_musa/profesor_9" alt="" class="photo">
-                                                                                                <!-- DR. OSIRIS VALDEZ TIBURCIO -->
+                                                                                            <img src="/assets/images/dr_musa/profesor_9.png" alt="" class="photo">
+                                                                                                DR. OSIRIS VALDEZ TIBURCIO
                                                                                         </td>
                                                                                         <td>
                                                                                             <div class="row mt-4 d-flex justify-content-around text-center">
