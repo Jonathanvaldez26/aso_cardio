@@ -256,50 +256,56 @@ html;
         $mpdf=new \mPDF('c', 'A4-L');
         $mpdf->defaultPageNumStyle = 'I';
         $mpdf->h2toc = array('H5'=>0,'H6'=>1);      
-  
-        
-          $mpdf->SetDefaultBodyCSS('background', "url('/PDF/template/constancia_2023.jpeg')");  
-              
-          $style =<<<html
-              <style>
-              
-                  .titulo{
-                  width:100%;
-                  margin-top: 30px;
-                  color: #F5AA3C;
-                  margin-left:auto;
-                  margin-right:auto;
-                  }
-  
-                  .imagen{
-  
-                      float: left;	
-                      margin-top: 150px;
-                      width: 100px;
-                      height: 100px;
-                  }
-  
-                  .spacer{
-                      margin-left: 7px;
-                      padding-top: 200px!important;
-                      text-align: center;
-              
-                  }
-                  .name{
-                      font-family: Arial, Helvetica, sans-serif;
-                      font-size: 48px;
-                    
-                  }
-                  
- 
-              </style>
+
+        $mpdf->SetDefaultBodyCSS('background', "url('/PDF/template/constancia_2023.jpeg')");  
+            
+        $style =<<<html
+            <style>
+            
+                .titulo{
+                width:100%;
+                margin-top: 30px;
+                color: #F5AA3C;
+                margin-left:auto;
+                margin-right:auto;
+                }
+
+                .imagen{
+
+                    float: left;	
+                    margin-top: 150px;
+                    width: 100px;
+                    height: 100px;
+                }
+
+                .name{
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: center;
+                    margin-left: 7px;
 html;
-              $tabla =<<<html
-  
-              <div style="page-break-inside: avoid;" class='spacer' align='center'>
-                <h1 class='name name_user'>{$data['nombre']}</h1>
-              </div>
-  html;
+            if (strlen($data['nombre']) >= 33) {
+                $style .=<<<html
+                    font-size: 22px;
+                    padding-top: 290px!important;
+                    padding-left: 350px!important;
+html;
+            }else{
+                $style .=<<<html
+                    font-size: 28px;
+                    padding-top: 280px!important;
+                    padding-left: 350px!important;
+html;
+            }
+            $style .=<<<html
+                }
+            </style>
+html;
+            $tabla =<<<html
+
+            <div style="page-break-inside: avoid;" align='center'>
+            <h1 class='name name_user'>{$data['nombre']}</h1>
+            </div>
+html;
        
     
         $mpdf->SetDefaultBodyCSS('background-image-resize', 6);
