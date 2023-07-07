@@ -292,7 +292,7 @@ html;
             }else if(strlen($data['nombre']) < 23){
                 $style .=<<<html
                     font-size: 30px;
-                    padding-top: 285px!important;
+                    padding-top: 290px!important;
                     padding-left: 300px!important;
 html;
             }else{
