@@ -107,35 +107,35 @@ html;
         
         $nombre = $_POST['nombre'];         
         $email = $_POST['email'];
-        $preg_1 = $_POST['group2'];
-        $preg_2 = $_POST['group3'];
-        $preg_3 = $_POST['group4'];
-        $text_preg_3 = $_POST['text_preg_3'];
-        $preg_4 = $_POST['group5'];
-        $preg_5_1 = $_POST['group6'];
-        $preg_5_2 = $_POST['group7'];
-        $preg_5_3 = $_POST['group8'];
-        $preg_5_4 = $_POST['group9'];
-        $preg_5_5 = $_POST['group10'];
-        $preg_5_6 = $_POST['group11'];
-        $preg_5_7 = $_POST['group12'];
-        $preg_5_8 = $_POST['group13'];
-        $preg_5_9 = $_POST['group14'];
-        $preg_5_10 = $_POST['group15'];
-        $preg_5_11 = $_POST['group16'];
-        $preg_5_12 = $_POST['group17'];
-        $preg_5_13 = $_POST['group18'];
-        $preg_5_14 = $_POST['group19'];
-        $preg_5_15 = $_POST['group20'];
-        $preg_6 = $_POST['group36'];
-        $preg_7_1 = $_POST['group37_1'];
-        $preg_7_2 = $_POST['group37_2'];
-        $preg_7_3 = $_POST['group37_3'];
-        $preg_7_4 = $_POST['group37_4'];
-        $preg_7_5 = $_POST['group37_5'];
+        $preg_1 =  (isset($_POST['group2'])) ? $_POST['group2'] : NULL;
+        $preg_2 = (isset($_POST['group3'])) ? $_POST['group3'] : NULL;
+        $preg_3 = (isset($_POST['group4'])) ? $_POST['group4'] : NULL;
+        $text_preg_3 = (isset($_POST['text_preg_3'])) ? $_POST['text_preg_3'] : NULL;
+        $preg_4 = (isset($_POST['group5'])) ? $_POST['group5'] : NULL;
+        $preg_5_1 = (isset($_POST['preg_5_1'])) ? $_POST['preg_5_1'] : NULL;
+        $preg_5_2 = (isset($_POST['preg_5_2'])) ? $_POST['preg_5_2'] : NULL;
+        $preg_5_3 = (isset($_POST['preg_5_3'])) ? $_POST['preg_5_3'] : NULL;
+        $preg_5_4 = (isset($_POST['preg_5_4'])) ? $_POST['preg_5_4'] : NULL;
+        $preg_5_5 = (isset($_POST['preg_5_5'])) ? $_POST['preg_5_5'] : NULL;
+        $preg_5_6 = (isset($_POST['preg_5_6'])) ? $_POST['preg_5_6'] : NULL;
+        $preg_5_7 = (isset($_POST['preg_5_7'])) ? $_POST['preg_5_7'] : NULL;
+        $preg_5_8 = (isset($_POST['preg_5_8'])) ? $_POST['preg_5_8'] : NULL;
+        $preg_5_9 = (isset($_POST['preg_5_9'])) ? $_POST['preg_5_9'] : NULL;
+        $preg_5_10 = (isset($_POST['preg_5_10'])) ? $_POST['preg_5_10'] : NULL;
+        $preg_5_11 = (isset($_POST['preg_5_11'])) ? $_POST['preg_5_11'] : NULL;
+        $preg_5_12 = (isset($_POST['preg_5_12'])) ? $_POST['preg_5_12'] : NULL;
+        $preg_5_13 = (isset($_POST['preg_5_13'])) ? $_POST['preg_5_13'] : NULL;
+        $preg_5_14 = (isset($_POST['preg_5_14'])) ? $_POST['preg_5_14'] : NULL;
+        $preg_5_15 = (isset($_POST['preg_5_15'])) ? $_POST['preg_5_15'] : NULL;
+        $preg_6 = (isset($_POST['group36'])) ? $_POST['group36'] : NULL;
+        $preg_7_1 = (isset($_POST['group37_1'])) ? $_POST['group37_1'] : NULL;
+        $preg_7_2 = (isset($_POST['group37_2'])) ? $_POST['group37_2'] : NULL;
+        $preg_7_3 = (isset($_POST['group37_3'])) ? $_POST['group37_3'] : NULL;
+        $preg_7_4 = (isset($_POST['group37_4'])) ? $_POST['group37_4'] : NULL;
+        $preg_7_5 = (isset($_POST['group37_5'])) ? $_POST['group37_5'] : NULL;
         
 
-        if(!isset($preg_7_1)){
+        /* if(!isset($preg_7_1)){
             $preg_7_1 = 0;
         }
 
@@ -153,14 +153,14 @@ html;
 
         if(!isset($preg_7_5)){
             $preg_7_5 = 0;
-        }
+        } */
 
 
 
-        $preg_8 = $_POST['group38'];
-        $preg_8_1 = $_POST['txt_preg_8'];
-        $preg_9 = $_POST['group39'];
-        $preg_10 = $_POST['txt_preg_10'];
+        $preg_8 = (isset($_POST['group38'])) ? $_POST['group38'] : NULL;
+        $preg_8_1 = (isset($_POST['txt_preg_8'])) ? $_POST['txt_preg_8'] : NULL;
+        $preg_9 = (isset($_POST['group39'])) ? $_POST['group39'] : NULL;
+        $preg_10 = (isset($_POST['txt_preg_10'])) ? $_POST['txt_preg_10'] : NULL;
 
         
         $data->_nombre = $nombre;
@@ -216,36 +216,19 @@ html;
             if($id >= 1){
                 $user = EncuestasDao::getUserEncuesta($email)[0];
                 if($user){
-                    if($user['segundo_nombre'] != ''){
-                        $nombre_completo = $user['nombre']." ".$user['segundo_nombre']." ".$user['apellido_paterno'];
-                        $data_pdf = [
-                            "nombre"  => mb_strtoupper($nombre_completo),
-                            "email" => $email,
-                            "clave" => $user['clave']
-                            
-                        ];
-                        $this->generarPDF($data_pdf);
-                        $datos = [
-                            "status" => "success",
-                            "msg" => "¡Gracias por contestar la encuesta!",
-                            "clave" =>  $user['clave']                    
-                        ];
-                    } 
-                    else{
-                        $nombre_completo = $user['nombre']." ".$user['apellido_paterno']." ".$user['apellido_materno'];
-                        $data_pdf = [
-                            "nombre"  => mb_strtoupper($nombre_completo),
-                            "email" => $email,
-                            "clave" => $user['clave']
-                            
-                        ];
-                        $this->generarPDF($data_pdf);
-                        $datos = [
-                            "status" => "success",
-                            "msg" => "¡Gracias por contestar la encuesta!",
-                            "clave" =>  $user['clave']                    
-                        ];
-                    }
+                    $nombre_completo = $user['nombre_completo'];
+                    $data_pdf = [
+                        "nombre"  => mb_strtoupper($nombre_completo),
+                        "email" => $email,
+                        "clave" => $user['clave']
+                        
+                    ];
+                    $this->generarPDF($data_pdf);
+                    $datos = [
+                        "status" => "success",
+                        "msg" => "¡Gracias por contestar la encuesta!",
+                        "clave" =>  $user['clave']                    
+                    ];
                 } else{
                     $datos = [
                         "status" => "success_2",
@@ -275,7 +258,7 @@ html;
         $mpdf->h2toc = array('H5'=>0,'H6'=>1);      
   
         
-          $mpdf->SetDefaultBodyCSS('background', "url('/PDF/template/Asistente.png')");  
+          $mpdf->SetDefaultBodyCSS('background', "url('/PDF/template/constancia_2023.jpeg')");  
               
           $style =<<<html
               <style>
