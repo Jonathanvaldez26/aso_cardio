@@ -13,7 +13,7 @@ class Encuestas{
   public static function insert($datos){
     $mysqli = Database::getInstance(1);
     $query=<<<sql
-    INSERT INTO encuesta_10mo_foro (nombre,email,preg_1,preg_2,preg_3,preg_3_txt,preg_4,preg_5_1,preg_5_2,preg_5_3,preg_5_4,preg_5_5,preg_5_6,preg_5_7,preg_5_8,preg_5_9,,preg_5_11,preg_5_12,preg_5_13,preg_5_14,preg_5_15,preg_6,preg_7_1,preg_7_2,preg_7_3,preg_7_4,preg_7_5,preg_8,preg_8_1,preg_9,preg_10) 
+    INSERT INTO encuesta_10mo_foro (nombre,email,preg_1,preg_2,preg_3,preg_3_txt,preg_4,preg_5_1,preg_5_2,preg_5_3,preg_5_4,preg_5_5,preg_5_6,preg_5_7,preg_5_8,preg_5_9,preg_5_10,preg_5_11,preg_5_12,preg_5_13,preg_5_14,preg_5_15,preg_6,preg_7_1,preg_7_2,preg_7_3,preg_7_4,preg_7_5,preg_8,preg_8_1,preg_9,preg_10) 
     VALUES (:nombre,:email,:preg_1,:preg_2,:preg_3,:preg_3_txt,:preg_4,:preg_5_1,:preg_5_2,:preg_5_3,:preg_5_4,:preg_5_5,:preg_5_6,:preg_5_7,:preg_5_8,:preg_5_9,:preg_5_10,:preg_5_11,:preg_5_12,:preg_5_13,:preg_5_14,:preg_5_15,:preg_6,:preg_7_1,:preg_7_2,:preg_7_3,:preg_7_4,:preg_7_5,:preg_8,:preg_8_1,:preg_9,:preg_10);
 sql;
     
