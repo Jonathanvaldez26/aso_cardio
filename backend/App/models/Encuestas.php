@@ -76,9 +76,7 @@ sql;
 public static function getUserEncuesta($usuario){
   $mysqli = Database::getInstance();
   $query=<<<sql
-  SELECT ra.id_registro_acceso,CONCAT_WS(" ",ra.nombre,ra.segundo_nombre,ra.apellido_paterno,ra.apellido_materno) as nombre_completo,ra.nombre,ra.segundo_nombre,ra.apellido_paterno,ra.apellido_materno,ra.email,ra.clave
-  FROM registros_acceso ra
-  WHERE ra.email = '$usuario'
+  SELECT * FROM encuesta_10mo_foro WHERE email =  '$usuario'
 sql;
 return $mysqli->queryAll($query);
 }
