@@ -464,7 +464,7 @@ echo $header;
                                                                                 </li>
 
                                                                                 <li class="mt-4">
-                                                                                    <p>7. Valoración global del evento (traslados, alojamiento, alimentación, atención del staff tecnofarma)</p>
+                                                                                    <p>7. Valoración global del evento (traslados, alojamiento, alimentación, atención del staff Adium)</p>
                                                                                     <div class="row mt-4 d-flex justify-content-center text-center">
                                                                                         <div class="col-3">
                                                                                             <input type="radio" class="btn-check btn-face-green" id="btncheck12" name="group4" required value="3">
