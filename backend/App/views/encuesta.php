@@ -345,7 +345,7 @@ echo $header;
                                                                                 </li>
 
                                                                                 <li class="mt-4">
-                                                                                    <p>4. Seleccione cuáles fueron los módulos de...:</p>
+                                                                                    <p>4. Seleccione cuáles fueron los módulos de mayor interés e impacto:</p>
                                                                                     <div class="row mt-4 d-flex text-center">
                                                                                         <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch justify-content-center mb-2">
                                                                                             <input type="checkbox" class="btn-check btn-face-" id="btncheck144" name="group37_1" value="1">
