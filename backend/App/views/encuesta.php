@@ -347,42 +347,42 @@ echo $header;
                                                                                 <li class="mt-4">
                                                                                     <p>4. Seleccione cuáles fueron los módulos de...:</p>
                                                                                     <div class="row mt-4 d-flex text-center">
-                                                                                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch justify-content-center">
+                                                                                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch justify-content-center mb-2">
                                                                                             <input type="checkbox" class="btn-check btn-face-" id="btncheck144" name="group37_1" value="1">
                                                                                             <label class="btn btn-lg btn-outline-secondary border-2 px-2 py-2 w-100 h-100" for="btncheck144">
                                                                                                 LOGRAR LAS METAS EN LA DISLIPEMIA
                                                                                             </label>
                                                                                             <h6></h6>
                                                                                         </div>
-                                                                                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch justify-content-center">
+                                                                                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch justify-content-center mb-2">
                                                                                             <input type="checkbox" class="btn-check btn-face-" id="btncheck145" name="group37_2" value="1">
                                                                                             <label class="btn btn-lg btn-outline-secondary border-2 px-2 py-2 w-100 h-100" for="btncheck145">
                                                                                                 PRÁCTICAS SEGURAS EN ANTICOAGULACIÓN ORAL
                                                                                             </label>
                                                                                             <h6></h6>
                                                                                         </div>
-                                                                                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch justify-content-center">
+                                                                                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch justify-content-center mb-2">
                                                                                             <input type="checkbox" class="btn-check btn-face-" id="btncheck146" name="group37_3" value="1">
                                                                                             <label class="btn btn-lg btn-outline-secondary border-2 px-2 py-2 w-100 h-100" for="btncheck146">
                                                                                                 ABORDAJE TERAPÉUTICO DE LA INSUFICIENCIA CARDÍACA
                                                                                             </label>
                                                                                             <h6></h6>
                                                                                         </div>
-                                                                                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch justify-content-center mt-2">
+                                                                                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch justify-content-center mb-2">
                                                                                             <input type="checkbox" class="btn-check btn-face-" id="btncheck147" name="group37_4" value="1">
                                                                                             <label class="btn btn-lg btn-outline-secondary border-2 px-2 py-2 w-100 h-100" for="btncheck147">
                                                                                                 HIPERTENSIÓN ARTERIAL. RETOS ACTUALES PARA UNA VIEJA Y CONOCIDA ENFERMEDAD
                                                                                             </label>
                                                                                             <h6></h6>
                                                                                         </div>
-                                                                                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch justify-content-center mt-2">
+                                                                                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch justify-content-center mb-2">
                                                                                             <input type="checkbox" class="btn-check btn-face-" id="btncheck152" name="group37_5" value="1">
                                                                                             <label class="btn btn-lg btn-outline-secondary border-2 px-2 py-2 w-100 h-100" for="btncheck152">
                                                                                                 DIABETES TIPO 2: HEMOS CAMBIADO EL ENFOQUE Y LA TERAPÉUTICA
                                                                                             </label>
                                                                                             <h6></h6>
                                                                                         </div>
-                                                                                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch justify-content-center mt-2">
+                                                                                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex align-items-stretch justify-content-center mb-2">
                                                                                             <input type="checkbox" class="btn-check btn-face-" id="btncheck153" name="txt_preg_8" value="1">
                                                                                             <label class="btn btn-lg btn-outline-secondary border-2 px-2 py-2 w-100 h-100" for="btncheck153">
                                                                                                 ESTADO ACTUAL DEL TRATAMIENTO DE LA OBESIDAD
