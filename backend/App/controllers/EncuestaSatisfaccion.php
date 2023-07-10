@@ -216,7 +216,8 @@ html;
             if($id >= 1){
                 $user = EncuestasDao::getUserEncuesta($email)[0];
                 if($user){
-                    $nombre_completo = $user['nombre_completo'];
+                    // $nombre_completo = $user['nombre_completo'];
+                    $nombre_completo = $nombre;
                     $data_pdf = [
                         "nombre"  => mb_strtoupper($nombre_completo),
                         "email" => $email,
